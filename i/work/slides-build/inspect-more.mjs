@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import { FileBlob, PresentationFile } from '@oai/artifact-tool';
+const root='C:/Users/HP/Documents/Codex/2026-08-16/i/work/slides-build';
+const p=await PresentationFile.importPptx(await FileBlob.load('C:/Users/HP/Downloads/Sample Presentation EduQual Diplomas (1).pptx'));
+const i=await p.inspect({kind:'slide,textbox,shape,image,table,chart,layout',maxChars:500000});
+await fs.writeFile(root+'/template-inspect/template-inspect.ndjson',i.ndjson);
+for (const m of p.masters.items) console.log('MASTER',m.id,JSON.stringify(m.placeholders.summary()),JSON.stringify(m.toProto()));
+for(const l of p.layouts.items.filter(l=>/slideLayout(7|12)\.xml$/.test(l.id))) console.log('LAYOUT',l.id,JSON.stringify(l.toProto()));
+console.log('SHAPES',p.slides.items[1].shapes.items.map(s=>({id:s.id,name:s.name,proto:s.toProto()})));
+console.log('inspect truncated',i.truncated);

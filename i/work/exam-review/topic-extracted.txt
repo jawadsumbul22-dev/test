@@ -1,0 +1,435 @@
+===== PAGE 1 =====
+Exam Topic for Oral Presentation
+EduQual Level 6
+Code: ANPP-OP
+Version: 0.1
+Date of version: 15th August, 2026
+Student Name Jawad Ahmad
+Student Email jawadsumbul22@gmail.com
+Diploma Name Diploma in Artificial Intelligence Operations
+EduQual Level 6
+Created by: Muhammad Yousaf Riaz
+Approved by: Mohammad Faisal
+Confidentiality level: Confidential
+
+===== PAGE 2 =====
+Enterprise Capstone Project 21
+Qualification
+Diploma in AIOPS
+Primary Core Integration Framework (CIF)
+Discipline
+E-Commerce & Digital Trade (Online Marketplaces,
+Cross-Border Commerce, Digital Supply Networks and
+Intelligent Commerce Platforms)
+Primary Assessment Domain
+The primary purpose of this Enterprise Capstone Project is to assess the student's ability to
+design, develop, deploy, demonstrate, and defend an Enterprise Cross-Border Digital
+Commerce Platform capable of managing global customers, merchants, products, inventory,
+intelligent pricing, international orders, digital payments (simulated), logistics integration,
+AI-assisted demand forecasting, and executive business intelligence.
+Although students will use Artificial Intelligence, Cloud Computing, DevSecOps, Infrastructure
+as Code, Monitoring, Cybersecurity, Software Engineering, Databases, APIs, Automation, and
+Data Analytics throughout the project, these technologies are supporting implementation
+technologies. The primary assessment focuses on Enterprise Digital Commerce,
+Cross-Border Trade, Marketplace Engineering, Order Management, Supply Chain
+Visibility, Customer Experience Management, AI-assisted Business Analytics, and
+Enterprise Commerce Operations.
+This project shall execute successfully on a laptop containing 8–16 GB RAM.
+
+===== PAGE 3 =====
+Industry Sector
+Global E-Commerce and Digital Trade
+Client
+GlobalCommerce Marketplace International
+(Fictional Organisation for Assessment Purposes)
+Project Title
+Design and Implementation of an Enterprise
+Cross-Border Digital Commerce Platform for Marketplace
+Management, Intelligent Inventory Optimization,
+AI-Assisted Demand Forecasting, International Order
+Processing, Logistics Visibility, and Executive Commerce
+Analytics
+1. Project Background
+GlobalCommerce Marketplace International operates one of the world's fastest-growing
+cross-border digital marketplaces connecting buyers, sellers, logistics providers, and fulfilment
+centres across multiple countries.
+The organisation manages:
+
+===== PAGE 4 =====
+● Online Marketplace
+● Merchant Management
+● Product Catalogue
+● Inventory Management
+● Customer Accounts
+● Order Management
+● International Shipping
+● Warehouse Operations
+● Business Intelligence Platform
+● Customer Service Operations
+The organisation processes more than 5 million simulated customer transactions daily.
+Current operations rely on multiple disconnected systems responsible for inventory, customer
+management, payments, shipping, merchant onboarding, analytics, and reporting.
+As business expands internationally, management requires a centralized enterprise platform
+capable of improving operational visibility, customer experience, intelligent forecasting, and
+executive decision-making.
+The organisation has appointed your consulting company to design and implement a
+proof-of-concept Enterprise Digital Commerce Platform.
+The completed solution should demonstrate how Artificial Intelligence, enterprise software
+engineering, cloud-native platforms, and intelligent analytics improve global digital commerce.
+2. Business Problem
+GlobalCommerce currently manages products, customers, merchants, warehouses, logistics,
+inventory, pricing, and analytics using multiple independent software platforms.
+This results in:
+● Poor inventory visibility.
+● Delayed order fulfilment.
+● Overstocking.
+● Stock shortages.
+● Inefficient merchant onboarding.
+● Limited executive reporting.
+
+===== PAGE 5 =====
+● Inconsistent customer experience.
+Executive management requires an Enterprise Digital Commerce Platform capable of
+integrating marketplace operations, intelligent inventory forecasting, logistics tracking, customer
+management, AI-assisted demand forecasting, and executive dashboards.
+The proposed solution should demonstrate how enterprise software engineering improves
+operational efficiency, customer satisfaction, and business intelligence.
+3. Project Objective
+Design, develop, deploy, and demonstrate an Enterprise Cross-Border Digital Commerce
+Platform capable of supporting simulated international marketplace operations.
+The completed solution shall demonstrate:
+● Marketplace Management
+● Merchant Management
+● Product Management
+● Inventory Management
+● Warehouse Management
+● International Order Processing
+● Logistics Monitoring
+● AI-assisted Demand Forecasting
+● Executive Dashboards
+● Enterprise Monitoring
+● Professional Documentation
+Only simulated customers, products, payments, logistics, and inventory shall be used.
+4. Laptop Resource Constraint
+The project shall execute comfortably on:
+● Minimum RAM: 8 GB
+
+===== PAGE 6 =====
+● Recommended RAM: 16 GB
+● Docker Compose deployment
+● PostgreSQL database
+● Lightweight AI models
+● Small simulated datasets
+● No GPU required
+● Kubernetes optional using K3s or Kind
+● No Apache Spark
+● No distributed clusters
+● No locally hosted LLMs
+5. Required Functional Modules
+Module 1 – Marketplace and Merchant Management
+Platform
+Develop a centralized marketplace platform.
+The platform shall:
+● Register merchants.
+● Register customers.
+● Manage merchant verification.
+● Manage customer accounts.
+● Maintain marketplace statistics.
+● Generate merchant reports.
+● Display operational dashboards.
+● Manage account status.
+Students shall explain how marketplace management improves scalability and customer trust.
+Module 2 – Product, Inventory and Warehouse
+Management Platform
+
+===== PAGE 7 =====
+Develop an inventory management system.
+The platform shall:
+● Register products.
+● Manage product categories.
+● Track warehouse inventory.
+● Record stock movement.
+● Monitor stock levels.
+● Generate inventory reports.
+● Display warehouse dashboards.
+● Produce inventory analytics.
+Students shall explain how intelligent inventory management supports global commerce.
+Module 3 – International Order and Logistics
+Management Platform
+Develop an order management platform.
+The platform shall:
+● Process simulated customer orders.
+● Track order lifecycle.
+● Assign warehouse fulfilment.
+● Simulate shipment creation.
+● Track shipment status.
+● Generate delivery reports.
+● Display logistics dashboards.
+● Record operational history.
+Students shall explain how integrated logistics improve customer satisfaction and operational
+efficiency.
+Module 4 – AI-Assisted Demand Forecasting Platform
+Develop a lightweight Artificial Intelligence platform.
+
+===== PAGE 8 =====
+The platform shall:
+● Import historical sales datasets.
+● Perform data preprocessing.
+● Train a lightweight forecasting model.
+● Predict future product demand.
+● Predict stock shortages.
+● Recommend inventory replenishment.
+● Generate forecasting reports.
+● Display confidence scores.
+Students shall explain how Artificial Intelligence supports supply chain planning while requiring
+business validation before operational implementation.
+Module 5 – Executive Commerce Intelligence Dashboard
+Develop an executive dashboard displaying:
+● Marketplace performance.
+● Active merchants.
+● Customer registrations.
+● Inventory availability.
+● Warehouse utilisation.
+● Order volume.
+● Shipping performance.
+● Demand forecasts.
+● Financial KPIs.
+● Executive reports.
+Students shall explain how executive dashboards improve strategic business decision-making.
+6. Primary Learning Outcomes
+Students should be able to:
+● Design enterprise digital commerce platforms.
+
+===== PAGE 9 =====
+● Develop marketplace management systems.
+● Build inventory management applications.
+● Design warehouse operations software.
+● Develop AI forecasting models.
+● Build REST APIs.
+● Develop executive dashboards.
+● Deploy lightweight enterprise software.
+● Produce professional technical documentation.
+● Defend architectural decisions during viva voce assessment.
+7. Standard Open-Source Technology
+Stack
+Programming Language
+● Python
+Backend Development
+● FastAPI
+Frontend Development
+● React
+Database
+● PostgreSQL
+Cache
+● Redis
+
+===== PAGE 10 =====
+Machine Learning
+● Scikit-learn
+● Prophet
+● Pandas
+● NumPy
+Data Visualisation
+● Plotly
+● Matplotlib
+API Documentation
+● OpenAPI
+● Swagger UI
+Workflow Automation
+● Apache Airflow (optional)
+Search Engine
+● OpenSearch
+Authentication
+● Keycloak (optional)
+● FastAPI JWT Authentication
+Containerisation
+● Docker
+● Docker Compose
+Optional Lightweight Kubernetes
+
+===== PAGE 11 =====
+● K3s
+● Kind
+Monitoring
+● Prometheus
+● Grafana
+Logging
+● Loki
+Security
+● Trivy
+● Semgrep
+● Open Policy Agent
+API Testing
+● Bruno
+● Postman
+Version Control
+● Git
+● GitHub
+Documentation
+● Markdown
+● MkDocs
+Architecture
+● Draw.io
+● PlantUML
+
+===== PAGE 12 =====
+● Mermaid
+8. Mandatory Architecture and
+Engineering Deliverables
+Students shall prepare and explain:
+1. Enterprise Digital Commerce Architecture Diagram.
+2. High-Level Solution Architecture Diagram.
+3. Detailed System Architecture Diagram.
+4. Marketplace Management Architecture Diagram.
+5. Inventory Management Architecture Diagram.
+6. Warehouse Management Architecture Diagram.
+7. Logistics Management Architecture Diagram.
+8. AI Demand Forecasting Architecture Diagram.
+9. Enterprise Network Architecture Diagram.
+10. Network Flow Diagram.
+11. Data Flow Diagram (Level 0).
+12. Data Flow Diagram (Level 1).
+13. Marketplace Workflow Diagram.
+14. Order Fulfilment Workflow Diagram.
+15. Demand Forecasting Workflow Diagram.
+16. Logistics Workflow Diagram.
+17. Database Entity Relationship Diagram (ERD).
+18. Sequence Diagram illustrating customer registration, product ordering, inventory
+validation, shipment processing, AI demand forecasting, and executive reporting.
+All diagrams shall be professionally prepared and explained during both the presentation and
+the viva voce examination.
+9. Applicable International Standards and
+Frameworks
+
+===== PAGE 13 =====
+The proposed solution shall demonstrate consideration of:
+● GS1 Global Standards (Product Identification and Supply Chains)
+● ISO 8000 – Data Quality
+● ISO 9001 – Quality Management Systems
+● ISO 28000 – Supply Chain Security Management
+● ISO/IEC 27001 – Information Security Management Systems
+● ISO/IEC 27017 – Cloud Security
+● ISO/IEC 27018 – Protection of Personal Data in the Cloud
+● ISO/IEC 42001 – Artificial Intelligence Management Systems
+● NIST AI Risk Management Framework
+● NIST Cybersecurity Framework 2.0
+● OWASP Top 10
+● OWASP API Security Top 10
+● CIS Critical Security Controls
+● COBIT 2019
+● ITIL 4
+Students shall explain how these standards improve data quality, supply chain security,
+cybersecurity, AI governance, privacy, enterprise operations, and digital commerce.
+10. Examination Format
+Stage 1 – Enterprise Solution Presentation (15–20
+Minutes)
+Students shall present:
+● Client background.
+● Business problem.
+● Project objectives.
+● Digital commerce domain overview.
+● Enterprise architecture.
+● Marketplace architecture.
+● Inventory architecture.
+● Logistics architecture.
+● AI forecasting architecture.
+
+===== PAGE 14 =====
+● Enterprise network architecture.
+● Network Flow Diagram.
+● Data Flow Diagrams.
+● Database design.
+● Technology stack.
+● Applicable standards and frameworks.
+● Expected business outcomes.
+● Future enhancements.
+Stage 2 – Live Project Demonstration and GitHub Review
+(5–10 Minutes)
+Students shall demonstrate:
+● GitHub repository.
+● Source code walkthrough.
+● Marketplace Management Platform.
+● Product and Inventory Management Platform.
+● Order Management Platform.
+● AI Demand Forecasting Platform.
+● Executive Dashboard.
+● Docker Compose deployment.
+● API testing.
+● Database queries.
+● Monitoring dashboard.
+● Test execution summary.
+The project must execute successfully on a standard student laptop with 8–16 GB RAM.
+Stage 3 – Professional Technical Interview and Viva Voce
+(30–40 Minutes)
+Questions may cover:
+● Enterprise marketplace architecture.
+● Inventory optimisation.
+
+===== PAGE 15 =====
+● Warehouse management.
+● Cross-border commerce.
+● Digital logistics.
+● Demand forecasting.
+● REST API design.
+● FastAPI.
+● PostgreSQL.
+● Docker Compose.
+● Prometheus and Grafana.
+● JWT authentication.
+● Enterprise monitoring.
+● AI governance.
+● Cybersecurity.
+● International standards.
+● Performance optimisation for laptop environments.
+● Future developments in digital commerce.
+Scenario-based questions may require students to redesign the platform to support a global
+marketplace with multiple currencies, regional warehouses, AI-driven pricing, international
+fulfilment centres, and millions of simulated daily transactions while maintaining scalability,
+reliability, and security.
+11. GitHub Repository Requirements
+The GitHub repository shall include:
+● Complete source code.
+● FastAPI backend.
+● React frontend.
+● PostgreSQL database schema.
+● Marketplace management module.
+● Product and inventory management module.
+● Order processing module.
+● Logistics simulation module.
+● AI demand forecasting module.
+● Dockerfile.
+● Docker Compose configuration.
+● Optional lightweight Kubernetes manifests.
+
+===== PAGE 16 =====
+● Prometheus and Grafana configuration.
+● Architecture diagrams.
+● Database ERD.
+● API documentation.
+● Installation Guide.
+● Deployment Guide.
+● User Guide.
+● Administrator Guide.
+● Unit and integration test reports.
+● AI model evaluation report.
+● Security scan reports from Trivy and Semgrep.
+● API testing collection (Bruno or Postman).
+● A comprehensive README.md describing the project objectives, architecture,
+implementation methodology, deployment process, laptop hardware requirements, assumptions,
+limitations, testing methodology, scalability considerations, and recommendations for future
+enhancements.
+12. Note for Students
+This Enterprise Capstone Project has been designed to assess the knowledge and practical
+skills acquired throughout the Diploma in AIOPS.
+Students are strongly encouraged to complete as many practical laboratories as possible from
+Ar Razzaq Part 1 and Ar Razzaq Part 2 before attempting the final assessment.
+Access to the Ar Razzaq laboratories requires maintaining an active membership in the
+Diploma in AIOPS. Completion of these laboratories is recommended but not mandatory for
+eligibility to undertake the final examination.
+Students who complete the laboratories will gain substantial practical experience in Python,
+FastAPI, React, PostgreSQL, Docker, APIs, monitoring, DevSecOps, Artificial Intelligence,
+enterprise software engineering, cloud-native application development, and modern system
+architecture. This experience is expected to significantly improve their ability to complete the
+capstone project, deliver a professional presentation, demonstrate a working enterprise digital
+commerce platform, and confidently defend their technical and architectural decisions during the
+viva voce examination.

@@ -1,0 +1,11 @@
+flowchart LR
+    Admin[Administrator] --> Register[Register merchant or customer]
+    Register --> User[Optional merchant login - required customer login]
+    Register --> Records[(Marketplace records)]
+    Admin --> Verify[Merchant pending - verified - suspended]
+    Verify --> Records
+    Merchant[Merchant role] --> Own[Own merchant profile and product report]
+    Own --> Records
+    Admin --> Catalogue[Categories and products]
+    Catalogue --> Records
+    Customer[Customer role] --> OwnOrders[Own profile and orders only]

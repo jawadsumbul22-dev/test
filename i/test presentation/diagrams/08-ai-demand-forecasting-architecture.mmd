@@ -1,0 +1,11 @@
+flowchart LR
+    Input[Seeded or imported daily sales] --> Validate[Validate and fill missing days with zero]
+    Validate --> Split[Earlier 80 percent train - later 20 percent holdout]
+    Split --> Models[Random Forest and seasonal-naive baseline]
+    Models --> Evaluate[Fixed-origin recursive holdout MAE and RMSE]
+    Evaluate --> Select[Select model by holdout MAE]
+    Select --> Refit[Refit using all eligible history]
+    Refit --> Future[Forecast tomorrow onward for 1 to 30 days]
+    Future --> Range[Illustrative error ranges]
+    Future --> Replenish[Demand plus safety minus available stock]
+    Replenish --> Human[Human review - no purchase order automation]

@@ -1,0 +1,28 @@
+erDiagram
+    USERS ||--o{ MERCHANTS : linked_account
+    USERS ||--o{ CUSTOMERS : linked_account
+    USERS ||--o{ AUDIT_LOGS : actor
+    MERCHANTS ||--o{ PRODUCTS : owns
+    CATEGORIES ||--o{ PRODUCTS : classifies
+    PRODUCTS ||--o{ INVENTORY_BALANCES : stocked
+    WAREHOUSES ||--o{ INVENTORY_BALANCES : stores
+    INVENTORY_BALANCES ||--o{ STOCK_MOVEMENTS : records
+    CUSTOMERS ||--o{ ORDERS : places
+    ORDERS ||--|{ ORDER_ITEMS : contains
+    PRODUCTS ||--o{ ORDER_ITEMS : ordered
+    WAREHOUSES ||--o{ ORDER_ITEMS : allocated
+    ORDERS ||--o| PAYMENTS : authorizes
+    ORDERS ||--o| SHIPMENTS : tracks
+    SHIPMENTS ||--o{ TRACKING_EVENTS : records
+    PRODUCTS ||--o{ SALES_HISTORY : demand
+    WAREHOUSES ||--o{ SALES_HISTORY : location
+    PRODUCTS ||--o{ FORECAST_RESULTS : predicts
+    WAREHOUSES ||--o{ FORECAST_RESULTS : location
+    PRODUCTS ||--o{ REPLENISHMENT_RECOMMENDATIONS : replenishes
+    WAREHOUSES ||--o{ REPLENISHMENT_RECOMMENDATIONS : location
+    FORECAST_EVALUATIONS {
+      string id PK
+      datetime created_at
+      int horizon_days
+      text details_JSON
+    }

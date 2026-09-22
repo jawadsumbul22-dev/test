@@ -1,0 +1,40 @@
+JAWAD AHMAD - EXAM-DAY GUIDE
+
+SLIDES: Open GlobalCommerce-Final-Presentation-Jawad-Ahmad.pptx in PowerPoint.
+Press F5 to begin; Escape to exit. The PDF is an offline backup.
+DIAGRAMS: Open diagrams/index.html in your browser for all 18 diagrams.
+Speaker notes: presentation-outline.md. Live walkthrough: demo-script.md.
+
+BEFORE EXAM DAY
+The final local rebuild has not been verified: Docker was unavailable and the
+restricted build session returned spawn EPERM. Complete this step and rehearse:
+1. Open Docker Desktop and wait until its engine is running.
+2. Open Command Prompt and enter:
+cd /d "C:\Users\HP\Documents\Codex\2026-08-16\i\outputs\globalcommerce-enterprise-platform"
+powershell -ExecutionPolicy Bypass -File .\scripts\start-local.ps1 -Rebuild
+3. Confirm the website loads and rehearse the complete demo.
+Do not leave image downloads or rebuilding until the exam.
+
+EXAM DAY - START 15 TO 20 MINUTES EARLY
+1. Open Docker Desktop; wait for the engine to run.
+2. Open Command Prompt; enter the same cd command above, then:
+powershell -ExecutionPolicy Bypass -File .\scripts\start-local.ps1
+3. Open http://localhost:3000
+4. Demo login: admin@globalcommerce.local / Admin123!
+5. Keep PowerPoint and diagrams/index.html open. Use Alt+Tab to switch.
+6. Optional monitoring tabs: http://localhost:3001 and http://localhost:9090
+   Grafana initial login: admin / admin, unless you changed it.
+
+PRESENTATION ORDER
+Introduce yourself and the business problem. Explain the architecture using
+your slides. Say: "I will now demonstrate the working local system."
+Show inventory quantities, create a two-unit order, show reservation changes,
+advance delivery, and show stock deduction and event history. Then demonstrate
+forecasting, analytics and monitoring. Finish with limitations and future work.
+Explain that payments, carriers, exchange rates and customs are simulated.
+Do not reset the database during the exam. Do not claim the localhost URL is
+accessible on the examiner's computer; demonstrate on your laptop or screen-share.
+
+AFTER THE EXAM
+Run docker compose stop from the project folder. This preserves your data.
+Nothing in this package uploads to GitHub.

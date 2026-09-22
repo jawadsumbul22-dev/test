@@ -1,0 +1,13 @@
+flowchart TB
+    Input[Customer and order payload] --> LockCustomer[Validate ownership and lock customer]
+    LockCustomer --> Key{Idempotency key exists?}
+    Key -->|Same customer and payload| Existing[Return existing order]
+    Key -->|Different request| Conflict[409 conflict]
+    Key -->|New key| Stock[Lock candidate balances in stable order]
+    Stock --> Eligible{One warehouse has every item?}
+    Eligible -->|No| Reject[409 and rollback]
+    Eligible -->|Yes| Reserve[Reserve units]
+    Reserve --> Cost[Round line prices and simulated charges]
+    Cost --> Records[Create order lines - payment authorization - shipment - audit]
+    Records --> Commit[Commit all records together]
+    Commit --> Lifecycle[Controlled shipment lifecycle]

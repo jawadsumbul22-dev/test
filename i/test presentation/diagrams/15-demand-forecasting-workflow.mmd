@@ -1,0 +1,17 @@
+flowchart TB
+    Input[Validate CSV - upsert supplied daily keys] --> History[(Sales history)]
+    History --> Eligible{35 or more days and latest within 90 days?}
+    Eligible -->|No| Skip[Record skip reason]
+    Eligible -->|Yes| Calendar[Calendarize missing days as zero]
+    Calendar --> Split[Chronological raw-history split]
+    Split --> Features[Past-only lag and rolling features]
+    Features --> Forest[Train Random Forest on training dates]
+    Forest --> Holdout[Recursively predict holdout without future actuals]
+    Split --> Naive[Repeat training last seven days as baseline]
+    Holdout --> Score[Compare MAE and RMSE]
+    Naive --> Score
+    Score --> Refit[Select by MAE and refit on all history]
+    Refit --> Predict[Bridge stale dates and predict requested horizon]
+    Predict --> Save[Save current forecasts and stock recommendations]
+    Score --> Evidence[Append evaluation dates - predictions - metrics - limitations]
+    Save --> Review[Human reviews recommendations]

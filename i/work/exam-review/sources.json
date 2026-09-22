@@ -1,0 +1,1682 @@
+{
+  "pdfs": {
+    "exam-guide": {
+      "path": "C:\\Users\\HP\\Downloads\\Oral Presentation Exam Guide.pdf",
+      "page_count": 6,
+      "pages": [
+        {
+          "page": 1,
+          "width": 612,
+          "height": 792,
+          "text": "Examination Readiness & Presentation\nCompliance Instructions\nApplicable EduQual Qualifications: EduQual Level 3 to 6 Diploma Qualifications\nDocument Owner: Academic Operations Center\nCenter Name: Al Nafi International College\nDated: 9th January, 2026\n1. Purpose and Regulatory Alignment\nThese instructions establish the minimum mandatory preparation standards for students\nappearing in EduQual Level 3, 4, 5, and 6 assessments.\nThe objective is to ensure that:\n● Learning outcomes are fully met and demonstrable\n● Assessments align with EduQual and Ofqual expectations\n● Submissions reflect industry readiness and employer-aligned competence\n● Academic integrity is preserved while responsibly leveraging AI as a tool\nThis framework reflects:\n● EduQual assessment principles\n● Ofqual conditions of recognition\n● EduQual & RQF level descriptors\n● Current global industry practices\n2. Mandatory Preparation Requirements (Non-Negotiable)\nEvery student MUST ensure the following are fully prepared for each selected topic, where\napplicable.\n2.1 Conceptual and Theoretical Readiness\nStudents must demonstrate:\n● Clear understanding of core concepts, terminology, and frameworks\n● Ability to explain why a solution exists, not just what it is",
+          "tables": [
+            [
+              [
+                "Applicable EduQual Qualifications: EduQual Level 3 to 6 Diploma Qualifications"
+              ],
+              [
+                "Document Owner: Academic Operations Center"
+              ],
+              [
+                "Center Name: Al Nafi International College"
+              ],
+              [
+                "Dated: 9th January, 2026"
+              ],
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "These instructions establish the minimum mandatory preparation standards for students"
+              ],
+              [
+                "appearing in EduQual Level 3, 4, 5, and 6 assessments."
+              ]
+            ],
+            [
+              [
+                "● Learning outcomes are fully met and demonstrable"
+              ],
+              [
+                "● Assessments align with EduQual and Ofqual expectations"
+              ],
+              [
+                "● Submissions reflect industry readiness and employer-aligned competence"
+              ],
+              [
+                "● Academic integrity is preserved while responsibly leveraging AI as a tool"
+              ]
+            ],
+            [
+              [
+                "● EduQual assessment principles"
+              ],
+              [
+                "● Ofqual conditions of recognition"
+              ],
+              [
+                "● EduQual & RQF level descriptors"
+              ],
+              [
+                "● Current global industry practices"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "Every student MUST ensure the following are fully prepared for each selected topic, where"
+              ],
+              [
+                "applicable."
+              ]
+            ],
+            [
+              [
+                "● Clear understanding of core concepts, terminology, and frameworks"
+              ],
+              [
+                "● Ability to explain why a solution exists, not just what it is"
+              ]
+            ]
+          ]
+        },
+        {
+          "page": 2,
+          "width": 612,
+          "height": 792,
+          "text": "● Alignment of explanations with the RQF level depth (increasing complexity from Level 3\nto Level 6)\nSuperficial explanations or memorized definitions are insufficient.\n2.2 Design & Architecture Artifacts (Mandatory Where Applicable)\nFor every topic, students MUST be able to independently explain and defend the following\nartifacts:\n● System Architecture Diagrams\n● Network Diagrams\n● Data Flow Diagrams (DFDs)\n● Process Flow / Workflow Diagrams\n● Security Architecture Diagrams\n● Cloud / Hybrid / On-Prem Architecture Designs\nRequirements:\n● Diagrams must be logically consistent\n● Components must be correctly placed and justified\n● Data movement, trust boundaries, and dependencies must be clearly explained\n● The student must be able to modify or redesign the architecture live during Q&A\nPre-made diagrams without understanding will be penalized.\n2.3 Implementation & Demonstration Capability\nStudents must be able to demonstrate:\n● How the solution works end-to-end\n● How components interact in real scenarios\n● How the design would be implemented in practice\nThis includes:\n● Configuration logic\n● Deployment flow\n● Operational behavior\n● Failure and recovery scenarios\n● Scalability and security considerations\nLive demos, walkthroughs, or simulated demonstrations may be required depending on the\ntopic and level.",
+          "tables": [
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "For every topic, students MUST be able to independently explain and defend the following"
+              ],
+              [
+                "artifacts:"
+              ]
+            ],
+            [
+              [
+                "● System Architecture Diagrams"
+              ],
+              [
+                "● Network Diagrams"
+              ],
+              [
+                "● Data Flow Diagrams (DFDs)"
+              ],
+              [
+                "● Process Flow / Workflow Diagrams"
+              ],
+              [
+                "● Security Architecture Diagrams"
+              ],
+              [
+                "● Cloud / Hybrid / On-Prem Architecture Designs"
+              ]
+            ],
+            [
+              [
+                "● Diagrams must be logically consistent"
+              ],
+              [
+                "● Components must be correctly placed and justified"
+              ],
+              [
+                "● Data movement, trust boundaries, and dependencies must be clearly explained"
+              ],
+              [
+                "● The student must be able to modify or redesign the architecture live during Q&A"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "● How the solution works end-to-end"
+              ],
+              [
+                "● How components interact in real scenarios"
+              ],
+              [
+                "● How the design would be implemented in practice"
+              ]
+            ],
+            [
+              [
+                "● Configuration logic"
+              ],
+              [
+                "● Deployment flow"
+              ],
+              [
+                "● Operational behavior"
+              ],
+              [
+                "● Failure and recovery scenarios"
+              ],
+              [
+                "● Scalability and security considerations"
+              ]
+            ],
+            [
+              [
+                "Live demos, walkthroughs, or simulated demonstrations may be required depending on the"
+              ],
+              [
+                "topic and level."
+              ]
+            ]
+          ]
+        },
+        {
+          "page": 3,
+          "width": 612,
+          "height": 792,
+          "text": "2.4 Policies, Procedures, and Governance (Where Applicable)\nStudents must prepare and be able to justify:\n● Policies (what must be followed and why)\n● Procedures (how things are executed step-by-step)\n● Standards and controls aligned with industry frameworks\n● Compliance, risk, and governance considerations\nAt higher RQF levels (5–6), students must show:\n● Decision-making rationale\n● Trade-off analysis\n● Alignment with regulatory and organizational objectives\n3. Use of Artificial Intelligence (AI): Allowed and Restricted Areas\n3.1 Permitted Use of AI (Explicitly Allowed)\nAI may be used for:\n● Writing code\n● Generating scripts\n● Producing configuration samples\n● Assisting with documentation drafts\n● Demonstrating how a solution operates\nThis reflects modern industry reality where AI-assisted development is standard practice.\n3.2 Restricted Use of AI (Strictly Evaluated)\nAI MUST NOT replace:\n● Student understanding\n● Student reasoning\n● Student design thinking\n● Student explanation\n● Student problem-solving during Q&A\nAll of the following are individually evaluated:\n● Creativity",
+          "tables": [
+            [
+              [
+                "● Policies (what must be followed and why)"
+              ],
+              [
+                "● Procedures (how things are executed step-by-step)"
+              ],
+              [
+                "● Standards and controls aligned with industry frameworks"
+              ],
+              [
+                "● Compliance, risk, and governance considerations"
+              ]
+            ],
+            [
+              [
+                "● Decision-making rationale"
+              ],
+              [
+                "● Trade-off analysis"
+              ],
+              [
+                "● Alignment with regulatory and organizational objectives"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "● Writing code"
+              ],
+              [
+                "● Generating scripts"
+              ],
+              [
+                "● Producing configuration samples"
+              ],
+              [
+                "● Assisting with documentation drafts"
+              ],
+              [
+                "● Demonstrating how a solution operates"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "● Student understanding"
+              ],
+              [
+                "● Student reasoning"
+              ],
+              [
+                "● Student design thinking"
+              ],
+              [
+                "● Student explanation"
+              ],
+              [
+                "● Student problem-solving during Q&A"
+              ]
+            ]
+          ]
+        },
+        {
+          "page": 4,
+          "width": 612,
+          "height": 792,
+          "text": "● Logical flow\n● Technical justification\n● Real-world reasoning\n● Ability to defend decisions verbally\nAI usage is assessed as a tool, not as a substitute for competence.\n4. Evaluation Framework Used During the Exam\nAll presentations and interviews are evaluated strictly using the following structure.\n4.1 Presentation Evaluation (50% | Total Marks: 25)\nFinal Evaluation Report Structure\nPresentation Title:\nPresenter:\nDiploma:\n1. Does the Presentation Meet the Examination Requirements?\n● Observations from the Presentation\n● Topics Covered\n● Missing Key Requirements\n● Conclusion\n2. Is AI Likely Used in the Creation of This Presentation?\n● Analysis\n● Possible AI Assistance\n● Human-Created Aspects\n● Conclusion\n3. Areas for Improvement\n(A) Technical Depth & Exam Alignment\n(B) Visuals & Presentation Quality",
+          "tables": [
+            [
+              [
+                "● Logical flow"
+              ],
+              [
+                "● Technical justification"
+              ],
+              [
+                "● Real-world reasoning"
+              ],
+              [
+                "● Ability to defend decisions verbally"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "Final Evaluation Report Structure"
+              ],
+              [
+                "Presentation Title:"
+              ],
+              [
+                "Presenter:"
+              ],
+              [
+                "Diploma:"
+              ]
+            ],
+            [
+              [
+                "● Observations from the Presentation"
+              ],
+              [
+                "● Topics Covered"
+              ],
+              [
+                "● Missing Key Requirements"
+              ],
+              [
+                "● Conclusion"
+              ]
+            ],
+            [
+              [
+                "● Analysis"
+              ],
+              [
+                "● Possible AI Assistance"
+              ],
+              [
+                "● Human-Created Aspects"
+              ],
+              [
+                "● Conclusion"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ]
+          ]
+        },
+        {
+          "page": 5,
+          "width": 612,
+          "height": 792,
+          "text": "Scoring Criteria\nCriteria Weightage Evaluation Focus\nContent Mastery 20% Depth, accuracy, and clarity\nOrganization 20% Logical flow and structure\nPresentation Skills 20% Confidence, articulation, defense\nUse of Visuals 20% Diagrams, clarity, relevance\nUsage of AI Tools 20% Responsible, transparent, appropriate\nTotal: 25 Marks\n4.2 Q&A / Interview Evaluation (50% | Total Marks: 25)\nStudents must demonstrate:\n● Real-time reasoning\n● Design defense\n● Scenario handling\n● Employer-style questioning readiness\nA minimum of 10 structured questions may be asked, covering:\n● Architecture decisions\n● Failure scenarios\n● Security implications\n● Performance trade-offs\n● Real-world deployment challenges\n5. Performance Expectations by RQF Level\n● RQF Level 3: Foundational understanding and basic demonstrations\n● RQF Level 4: Applied knowledge with structured designs\n● RQF Level 5: Analytical thinking, optimization, and justification\n● RQF Level 6: Strategic architecture, risk-based decisions, and enterprise alignment\nExpectations increase significantly with each level.",
+          "tables": [
+            [
+              [
+                "Criteria",
+                "Weightage",
+                "Evaluation Focus"
+              ],
+              [
+                "Content Mastery",
+                "20%",
+                "Depth, accuracy, and clarity"
+              ],
+              [
+                "Organization",
+                "20%",
+                "Logical flow and structure"
+              ],
+              [
+                "Presentation Skills",
+                "20%",
+                "Confidence, articulation, defense"
+              ],
+              [
+                "Use of Visuals",
+                "20%",
+                "Diagrams, clarity, relevance"
+              ],
+              [
+                "Usage of AI Tools",
+                "20%",
+                "Responsible, transparent, appropriate"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                "4.2 Q&A / Interview Evaluation (50% | Total Marks: 25)"
+              ]
+            ],
+            [
+              [
+                "● Real-time reasoning"
+              ],
+              [
+                "● Design defense"
+              ],
+              [
+                "● Scenario handlin"
+              ],
+              [
+                "● Employer-style questioning readiness"
+              ]
+            ],
+            [
+              [
+                "● Architecture decisions"
+              ],
+              [
+                "● Failure scenarios"
+              ],
+              [
+                "● Security implications"
+              ],
+              [
+                "● Performance trade-offs"
+              ],
+              [
+                "● Real-world deployment challenges"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                "5. Performance Expectations by RQF Level"
+              ]
+            ],
+            [
+              [
+                "● RQF Level 3: Foundational understanding and basic demonstrations"
+              ],
+              [
+                "● RQF Level 4: Applied knowledge with structured designs"
+              ],
+              [
+                "● RQF Level 5: Analytical thinking, optimization, and justification"
+              ],
+              [
+                "● RQF Level 6: Strategic architecture, risk-based decisions, and enterprise alignment"
+              ]
+            ]
+          ]
+        },
+        {
+          "page": 6,
+          "width": 612,
+          "height": 792,
+          "text": "6. Final Verdict and Recommendations\nFinal outcomes include:\n● Strengths\n● Areas needing attention\n● Clear recommendation\n● Final score out of 50\n● Performance level classification\nPassing requires both technical competence and demonstrable understanding.\n7. Institutional Position\nAl Nafi International College evaluates:\n● Skills, not templates\n● Understanding, not memorization\n● Readiness for employment, not academic theory alone\nStudents are expected to perform as entry-level to mid-level professionals, depending on the\nRQF level.\n8. Closing Statement\nThis instruction set exists to:\n● Protect qualification integrity\n● Align education with real-world demand\n● Ensure students graduate with defensible, employable skills\nStudents are encouraged to prepare thoroughly, think critically, and present confidently.\nThe assessment process is rigorous by design and fair by principle.",
+          "tables": [
+            [
+              [
+                "● Strengths"
+              ],
+              [
+                "● Areas needing attention"
+              ],
+              [
+                "● Clear recommendation"
+              ],
+              [
+                "● Final score out of 50"
+              ],
+              [
+                "● Performance level classification"
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "● Skills, not templates"
+              ],
+              [
+                "● Understanding, not memorization"
+              ],
+              [
+                "● Readiness for employment, not academic theory alone"
+              ]
+            ],
+            [
+              [
+                "Students are expected to perform as entry-level to mid-level professionals, depending on the"
+              ],
+              [
+                "RQF level."
+              ]
+            ],
+            [
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ],
+            [
+              [
+                "● Protect qualification integrity"
+              ],
+              [
+                "● Align education with real-world demand"
+              ],
+              [
+                "● Ensure students graduate with defensible, employable skills"
+              ]
+            ],
+            [
+              [
+                "The assessment process is rigorous by design and fair by principle."
+              ],
+              [
+                ""
+              ],
+              [
+                ""
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    "topic": {
+      "path": "C:\\Users\\HP\\Downloads\\Jawad Ahmad _Exam Topic for Oral Presentation_DAIOL6.pdf",
+      "page_count": 16,
+      "pages": [
+        {
+          "page": 1,
+          "width": 612,
+          "height": 792,
+          "text": "Exam Topic for Oral Presentation\nEduQual Level 6\nCode: ANPP-OP\nVersion: 0.1\nDate of version: 15th August, 2026\nStudent Name Jawad Ahmad\nStudent Email jawadsumbul22@gmail.com\nDiploma Name Diploma in Artificial Intelligence Operations\nEduQual Level 6\nCreated by: Muhammad Yousaf Riaz\nApproved by: Mohammad Faisal\nConfidentiality level: Confidential",
+          "tables": [
+            [
+              [
+                "Code:",
+                "ANPP-OP"
+              ],
+              [
+                "Version:",
+                "0.1"
+              ],
+              [
+                "Date of version:",
+                "15th August, 2026"
+              ],
+              [
+                "Student Name",
+                "Jawad Ahmad"
+              ],
+              [
+                "Student Email",
+                "jawadsumbul22@gmail.com"
+              ],
+              [
+                "Diploma Name",
+                "Diploma in Artificial Intelligence Operations"
+              ],
+              [
+                "EduQual Level",
+                "6"
+              ],
+              [
+                "Created by:",
+                "Muhammad Yousaf Riaz"
+              ],
+              [
+                "Approved by:",
+                "Mohammad Faisal"
+              ],
+              [
+                "Confidentiality level:",
+                "Confidential"
+              ]
+            ]
+          ]
+        },
+        {
+          "page": 2,
+          "width": 612,
+          "height": 792,
+          "text": "Enterprise Capstone Project 21\nQualification\nDiploma in AIOPS\nPrimary Core Integration Framework (CIF)\nDiscipline\nE-Commerce & Digital Trade (Online Marketplaces,\nCross-Border Commerce, Digital Supply Networks and\nIntelligent Commerce Platforms)\nPrimary Assessment Domain\nThe primary purpose of this Enterprise Capstone Project is to assess the student's ability to\ndesign, develop, deploy, demonstrate, and defend an Enterprise Cross-Border Digital\nCommerce Platform capable of managing global customers, merchants, products, inventory,\nintelligent pricing, international orders, digital payments (simulated), logistics integration,\nAI-assisted demand forecasting, and executive business intelligence.\nAlthough students will use Artificial Intelligence, Cloud Computing, DevSecOps, Infrastructure\nas Code, Monitoring, Cybersecurity, Software Engineering, Databases, APIs, Automation, and\nData Analytics throughout the project, these technologies are supporting implementation\ntechnologies. The primary assessment focuses on Enterprise Digital Commerce,\nCross-Border Trade, Marketplace Engineering, Order Management, Supply Chain\nVisibility, Customer Experience Management, AI-assisted Business Analytics, and\nEnterprise Commerce Operations.\nThis project shall execute successfully on a laptop containing 8–16 GB RAM.",
+          "tables": []
+        },
+        {
+          "page": 3,
+          "width": 612,
+          "height": 792,
+          "text": "Industry Sector\nGlobal E-Commerce and Digital Trade\nClient\nGlobalCommerce Marketplace International\n(Fictional Organisation for Assessment Purposes)\nProject Title\nDesign and Implementation of an Enterprise\nCross-Border Digital Commerce Platform for Marketplace\nManagement, Intelligent Inventory Optimization,\nAI-Assisted Demand Forecasting, International Order\nProcessing, Logistics Visibility, and Executive Commerce\nAnalytics\n1. Project Background\nGlobalCommerce Marketplace International operates one of the world's fastest-growing\ncross-border digital marketplaces connecting buyers, sellers, logistics providers, and fulfilment\ncentres across multiple countries.\nThe organisation manages:",
+          "tables": []
+        },
+        {
+          "page": 4,
+          "width": 612,
+          "height": 792,
+          "text": "● Online Marketplace\n● Merchant Management\n● Product Catalogue\n● Inventory Management\n● Customer Accounts\n● Order Management\n● International Shipping\n● Warehouse Operations\n● Business Intelligence Platform\n● Customer Service Operations\nThe organisation processes more than 5 million simulated customer transactions daily.\nCurrent operations rely on multiple disconnected systems responsible for inventory, customer\nmanagement, payments, shipping, merchant onboarding, analytics, and reporting.\nAs business expands internationally, management requires a centralized enterprise platform\ncapable of improving operational visibility, customer experience, intelligent forecasting, and\nexecutive decision-making.\nThe organisation has appointed your consulting company to design and implement a\nproof-of-concept Enterprise Digital Commerce Platform.\nThe completed solution should demonstrate how Artificial Intelligence, enterprise software\nengineering, cloud-native platforms, and intelligent analytics improve global digital commerce.\n2. Business Problem\nGlobalCommerce currently manages products, customers, merchants, warehouses, logistics,\ninventory, pricing, and analytics using multiple independent software platforms.\nThis results in:\n● Poor inventory visibility.\n● Delayed order fulfilment.\n● Overstocking.\n● Stock shortages.\n● Inefficient merchant onboarding.\n● Limited executive reporting.",
+          "tables": []
+        },
+        {
+          "page": 5,
+          "width": 612,
+          "height": 792,
+          "text": "● Inconsistent customer experience.\nExecutive management requires an Enterprise Digital Commerce Platform capable of\nintegrating marketplace operations, intelligent inventory forecasting, logistics tracking, customer\nmanagement, AI-assisted demand forecasting, and executive dashboards.\nThe proposed solution should demonstrate how enterprise software engineering improves\noperational efficiency, customer satisfaction, and business intelligence.\n3. Project Objective\nDesign, develop, deploy, and demonstrate an Enterprise Cross-Border Digital Commerce\nPlatform capable of supporting simulated international marketplace operations.\nThe completed solution shall demonstrate:\n● Marketplace Management\n● Merchant Management\n● Product Management\n● Inventory Management\n● Warehouse Management\n● International Order Processing\n● Logistics Monitoring\n● AI-assisted Demand Forecasting\n● Executive Dashboards\n● Enterprise Monitoring\n● Professional Documentation\nOnly simulated customers, products, payments, logistics, and inventory shall be used.\n4. Laptop Resource Constraint\nThe project shall execute comfortably on:\n● Minimum RAM: 8 GB",
+          "tables": []
+        },
+        {
+          "page": 6,
+          "width": 612,
+          "height": 792,
+          "text": "● Recommended RAM: 16 GB\n● Docker Compose deployment\n● PostgreSQL database\n● Lightweight AI models\n● Small simulated datasets\n● No GPU required\n● Kubernetes optional using K3s or Kind\n● No Apache Spark\n● No distributed clusters\n● No locally hosted LLMs\n5. Required Functional Modules\nModule 1 – Marketplace and Merchant Management\nPlatform\nDevelop a centralized marketplace platform.\nThe platform shall:\n● Register merchants.\n● Register customers.\n● Manage merchant verification.\n● Manage customer accounts.\n● Maintain marketplace statistics.\n● Generate merchant reports.\n● Display operational dashboards.\n● Manage account status.\nStudents shall explain how marketplace management improves scalability and customer trust.\nModule 2 – Product, Inventory and Warehouse\nManagement Platform",
+          "tables": []
+        },
+        {
+          "page": 7,
+          "width": 612,
+          "height": 792,
+          "text": "Develop an inventory management system.\nThe platform shall:\n● Register products.\n● Manage product categories.\n● Track warehouse inventory.\n● Record stock movement.\n● Monitor stock levels.\n● Generate inventory reports.\n● Display warehouse dashboards.\n● Produce inventory analytics.\nStudents shall explain how intelligent inventory management supports global commerce.\nModule 3 – International Order and Logistics\nManagement Platform\nDevelop an order management platform.\nThe platform shall:\n● Process simulated customer orders.\n● Track order lifecycle.\n● Assign warehouse fulfilment.\n● Simulate shipment creation.\n● Track shipment status.\n● Generate delivery reports.\n● Display logistics dashboards.\n● Record operational history.\nStudents shall explain how integrated logistics improve customer satisfaction and operational\nefficiency.\nModule 4 – AI-Assisted Demand Forecasting Platform\nDevelop a lightweight Artificial Intelligence platform.",
+          "tables": []
+        },
+        {
+          "page": 8,
+          "width": 612,
+          "height": 792,
+          "text": "The platform shall:\n● Import historical sales datasets.\n● Perform data preprocessing.\n● Train a lightweight forecasting model.\n● Predict future product demand.\n● Predict stock shortages.\n● Recommend inventory replenishment.\n● Generate forecasting reports.\n● Display confidence scores.\nStudents shall explain how Artificial Intelligence supports supply chain planning while requiring\nbusiness validation before operational implementation.\nModule 5 – Executive Commerce Intelligence Dashboard\nDevelop an executive dashboard displaying:\n● Marketplace performance.\n● Active merchants.\n● Customer registrations.\n● Inventory availability.\n● Warehouse utilisation.\n● Order volume.\n● Shipping performance.\n● Demand forecasts.\n● Financial KPIs.\n● Executive reports.\nStudents shall explain how executive dashboards improve strategic business decision-making.\n6. Primary Learning Outcomes\nStudents should be able to:\n● Design enterprise digital commerce platforms.",
+          "tables": []
+        },
+        {
+          "page": 9,
+          "width": 612,
+          "height": 792,
+          "text": "● Develop marketplace management systems.\n● Build inventory management applications.\n● Design warehouse operations software.\n● Develop AI forecasting models.\n● Build REST APIs.\n● Develop executive dashboards.\n● Deploy lightweight enterprise software.\n● Produce professional technical documentation.\n● Defend architectural decisions during viva voce assessment.\n7. Standard Open-Source Technology\nStack\nProgramming Language\n● Python\nBackend Development\n● FastAPI\nFrontend Development\n● React\nDatabase\n● PostgreSQL\nCache\n● Redis",
+          "tables": []
+        },
+        {
+          "page": 10,
+          "width": 612,
+          "height": 792,
+          "text": "Machine Learning\n● Scikit-learn\n● Prophet\n● Pandas\n● NumPy\nData Visualisation\n● Plotly\n● Matplotlib\nAPI Documentation\n● OpenAPI\n● Swagger UI\nWorkflow Automation\n● Apache Airflow (optional)\nSearch Engine\n● OpenSearch\nAuthentication\n● Keycloak (optional)\n● FastAPI JWT Authentication\nContainerisation\n● Docker\n● Docker Compose\nOptional Lightweight Kubernetes",
+          "tables": []
+        },
+        {
+          "page": 11,
+          "width": 612,
+          "height": 792,
+          "text": "● K3s\n● Kind\nMonitoring\n● Prometheus\n● Grafana\nLogging\n● Loki\nSecurity\n● Trivy\n● Semgrep\n● Open Policy Agent\nAPI Testing\n● Bruno\n● Postman\nVersion Control\n● Git\n● GitHub\nDocumentation\n● Markdown\n● MkDocs\nArchitecture\n● Draw.io\n● PlantUML",
+          "tables": []
+        },
+        {
+          "page": 12,
+          "width": 612,
+          "height": 792,
+          "text": "● Mermaid\n8. Mandatory Architecture and\nEngineering Deliverables\nStudents shall prepare and explain:\n1. Enterprise Digital Commerce Architecture Diagram.\n2. High-Level Solution Architecture Diagram.\n3. Detailed System Architecture Diagram.\n4. Marketplace Management Architecture Diagram.\n5. Inventory Management Architecture Diagram.\n6. Warehouse Management Architecture Diagram.\n7. Logistics Management Architecture Diagram.\n8. AI Demand Forecasting Architecture Diagram.\n9. Enterprise Network Architecture Diagram.\n10. Network Flow Diagram.\n11. Data Flow Diagram (Level 0).\n12. Data Flow Diagram (Level 1).\n13. Marketplace Workflow Diagram.\n14. Order Fulfilment Workflow Diagram.\n15. Demand Forecasting Workflow Diagram.\n16. Logistics Workflow Diagram.\n17. Database Entity Relationship Diagram (ERD).\n18. Sequence Diagram illustrating customer registration, product ordering, inventory\nvalidation, shipment processing, AI demand forecasting, and executive reporting.\nAll diagrams shall be professionally prepared and explained during both the presentation and\nthe viva voce examination.\n9. Applicable International Standards and\nFrameworks",
+          "tables": []
+        },
+        {
+          "page": 13,
+          "width": 612,
+          "height": 792,
+          "text": "The proposed solution shall demonstrate consideration of:\n● GS1 Global Standards (Product Identification and Supply Chains)\n● ISO 8000 – Data Quality\n● ISO 9001 – Quality Management Systems\n● ISO 28000 – Supply Chain Security Management\n● ISO/IEC 27001 – Information Security Management Systems\n● ISO/IEC 27017 – Cloud Security\n● ISO/IEC 27018 – Protection of Personal Data in the Cloud\n● ISO/IEC 42001 – Artificial Intelligence Management Systems\n● NIST AI Risk Management Framework\n● NIST Cybersecurity Framework 2.0\n● OWASP Top 10\n● OWASP API Security Top 10\n● CIS Critical Security Controls\n● COBIT 2019\n● ITIL 4\nStudents shall explain how these standards improve data quality, supply chain security,\ncybersecurity, AI governance, privacy, enterprise operations, and digital commerce.\n10. Examination Format\nStage 1 – Enterprise Solution Presentation (15–20\nMinutes)\nStudents shall present:\n● Client background.\n● Business problem.\n● Project objectives.\n● Digital commerce domain overview.\n● Enterprise architecture.\n● Marketplace architecture.\n● Inventory architecture.\n● Logistics architecture.\n● AI forecasting architecture.",
+          "tables": []
+        },
+        {
+          "page": 14,
+          "width": 612,
+          "height": 792,
+          "text": "● Enterprise network architecture.\n● Network Flow Diagram.\n● Data Flow Diagrams.\n● Database design.\n● Technology stack.\n● Applicable standards and frameworks.\n● Expected business outcomes.\n● Future enhancements.\nStage 2 – Live Project Demonstration and GitHub Review\n(5–10 Minutes)\nStudents shall demonstrate:\n● GitHub repository.\n● Source code walkthrough.\n● Marketplace Management Platform.\n● Product and Inventory Management Platform.\n● Order Management Platform.\n● AI Demand Forecasting Platform.\n● Executive Dashboard.\n● Docker Compose deployment.\n● API testing.\n● Database queries.\n● Monitoring dashboard.\n● Test execution summary.\nThe project must execute successfully on a standard student laptop with 8–16 GB RAM.\nStage 3 – Professional Technical Interview and Viva Voce\n(30–40 Minutes)\nQuestions may cover:\n● Enterprise marketplace architecture.\n● Inventory optimisation.",
+          "tables": []
+        },
+        {
+          "page": 15,
+          "width": 612,
+          "height": 792,
+          "text": "● Warehouse management.\n● Cross-border commerce.\n● Digital logistics.\n● Demand forecasting.\n● REST API design.\n● FastAPI.\n● PostgreSQL.\n● Docker Compose.\n● Prometheus and Grafana.\n● JWT authentication.\n● Enterprise monitoring.\n● AI governance.\n● Cybersecurity.\n● International standards.\n● Performance optimisation for laptop environments.\n● Future developments in digital commerce.\nScenario-based questions may require students to redesign the platform to support a global\nmarketplace with multiple currencies, regional warehouses, AI-driven pricing, international\nfulfilment centres, and millions of simulated daily transactions while maintaining scalability,\nreliability, and security.\n11. GitHub Repository Requirements\nThe GitHub repository shall include:\n● Complete source code.\n● FastAPI backend.\n● React frontend.\n● PostgreSQL database schema.\n● Marketplace management module.\n● Product and inventory management module.\n● Order processing module.\n● Logistics simulation module.\n● AI demand forecasting module.\n● Dockerfile.\n● Docker Compose configuration.\n● Optional lightweight Kubernetes manifests.",
+          "tables": []
+        },
+        {
+          "page": 16,
+          "width": 612,
+          "height": 792,
+          "text": "● Prometheus and Grafana configuration.\n● Architecture diagrams.\n● Database ERD.\n● API documentation.\n● Installation Guide.\n● Deployment Guide.\n● User Guide.\n● Administrator Guide.\n● Unit and integration test reports.\n● AI model evaluation report.\n● Security scan reports from Trivy and Semgrep.\n● API testing collection (Bruno or Postman).\n● A comprehensive README.md describing the project objectives, architecture,\nimplementation methodology, deployment process, laptop hardware requirements, assumptions,\nlimitations, testing methodology, scalability considerations, and recommendations for future\nenhancements.\n12. Note for Students\nThis Enterprise Capstone Project has been designed to assess the knowledge and practical\nskills acquired throughout the Diploma in AIOPS.\nStudents are strongly encouraged to complete as many practical laboratories as possible from\nAr Razzaq Part 1 and Ar Razzaq Part 2 before attempting the final assessment.\nAccess to the Ar Razzaq laboratories requires maintaining an active membership in the\nDiploma in AIOPS. Completion of these laboratories is recommended but not mandatory for\neligibility to undertake the final examination.\nStudents who complete the laboratories will gain substantial practical experience in Python,\nFastAPI, React, PostgreSQL, Docker, APIs, monitoring, DevSecOps, Artificial Intelligence,\nenterprise software engineering, cloud-native application development, and modern system\narchitecture. This experience is expected to significantly improve their ability to complete the\ncapstone project, deliver a professional presentation, demonstrate a working enterprise digital\ncommerce platform, and confidently defend their technical and architectural decisions during the\nviva voce examination.",
+          "tables": []
+        }
+      ]
+    }
+  },
+  "presentation": {
+    "path": "C:\\Users\\HP\\Downloads\\Sample Presentation EduQual Diplomas (1).pptx",
+    "slide_count": 8,
+    "slide_width": 9144000,
+    "slide_height": 5143500,
+    "slides": [
+      {
+        "slide": 1,
+        "layout": "Cover Page 1",
+        "items": [
+          {
+            "name": "Text Placeholder 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 5460274,
+            "top": 333676,
+            "width": 3328988,
+            "height": 2773694,
+            "text": "Cyber Security, Governance, Risk and Conformance\n\nCustomer Centric\nSales Focused\nBusiness Driven\n\nPresenters: \nKhalid Bin Waleed\nDiploma in AIOPS\nEduQual Level 6"
+          },
+          {
+            "name": "Picture 5",
+            "shape_type": "PICTURE (13)",
+            "left": 1110092,
+            "top": 2053525,
+            "width": 1284398,
+            "height": 839906
+          },
+          {
+            "name": "Picture 14",
+            "shape_type": "PICTURE (13)",
+            "left": 770868,
+            "top": 333676,
+            "width": 740440,
+            "height": 642717
+          },
+          {
+            "name": "Picture 15",
+            "shape_type": "PICTURE (13)",
+            "left": 446136,
+            "top": 3146156,
+            "width": 649463,
+            "height": 583416
+          },
+          {
+            "name": "Picture 7",
+            "shape_type": "PICTURE (13)",
+            "left": 2529902,
+            "top": 1942816,
+            "width": 1319228,
+            "height": 1257868
+          },
+          {
+            "name": "Picture 8",
+            "shape_type": "PICTURE (13)",
+            "left": 894034,
+            "top": 3853143,
+            "width": 1234547,
+            "height": 1211685
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 2,
+        "layout": "Blank",
+        "items": [
+          {
+            "name": "TextBox 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 508157,
+            "top": 338252,
+            "width": 2488182,
+            "height": 400110,
+            "text": "Table of Contents"
+          },
+          {
+            "name": "TextBox 3",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 661093,
+            "top": 1239285,
+            "width": 6299200,
+            "height": 1785104,
+            "text": "Goal statement  \nAdditional Benefits = increased Operations Maturity\nValue of the Unified Integrated Management System framework\nOperating as ONE\t\n\n\n"
+          },
+          {
+            "name": "Straight Connector 5",
+            "shape_type": "LINE (9)",
+            "left": 566322,
+            "top": 390825,
+            "width": 340,
+            "height": 162967
+          },
+          {
+            "name": "Straight Connector 6",
+            "shape_type": "LINE (9)",
+            "left": 559882,
+            "top": 392278,
+            "width": 6948493,
+            "height": 0
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 3,
+        "layout": "Blank",
+        "items": [
+          {
+            "name": "Object 12",
+            "shape_type": "EMBEDDED_OLE_OBJECT (7)",
+            "left": 1588,
+            "top": 1588,
+            "width": 1587,
+            "height": 1587
+          },
+          {
+            "name": "Slide Number Placeholder 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 7086600,
+            "top": 4767263,
+            "width": 2057400,
+            "height": 274637,
+            "text": "3"
+          },
+          {
+            "name": "Title 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 319661,
+            "top": 384024,
+            "width": 2547273,
+            "height": 390390,
+            "text": "Goal Statement"
+          },
+          {
+            "name": "TextBox 3",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 228805,
+            "top": 789031,
+            "width": 7198542,
+            "height": 938719,
+            "text": "Strengthening Acme Telco competitive position and increasing revenue with the existing client base and new customers enabled by meeting compliance requirements\n"
+          },
+          {
+            "name": "Picture 5",
+            "shape_type": "PICTURE (13)",
+            "left": 5791751,
+            "top": 1671440,
+            "width": 2666018,
+            "height": 1487722
+          },
+          {
+            "name": "Group 8",
+            "shape_type": "GROUP (6)",
+            "left": 319661,
+            "top": 1649745,
+            "width": 5384997,
+            "height": 3254440
+          },
+          {
+            "name": "Title 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": -159551,
+            "top": 4904185,
+            "width": 958425,
+            "height": 189697,
+            "text": "  1"
+          },
+          {
+            "name": "TextBox 1",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5959266,
+            "top": 3337645,
+            "width": 2434107,
+            "height": 461665,
+            "text": "“The future belongs to those who prepare for it today”"
+          },
+          {
+            "name": "Straight Connector 16",
+            "shape_type": "LINE (9)",
+            "left": 360270,
+            "top": 403703,
+            "width": 340,
+            "height": 162967
+          },
+          {
+            "name": "Straight Connector 17",
+            "shape_type": "LINE (9)",
+            "left": 353830,
+            "top": 405156,
+            "width": 6948493,
+            "height": 0
+          },
+          {
+            "name": "Oval 18",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 4617076,
+            "top": 4297679,
+            "width": 605307,
+            "height": 222805
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 4,
+        "layout": "Blank",
+        "items": [
+          {
+            "name": "Footer Placeholder 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 0,
+            "top": 4724400,
+            "width": 3086100,
+            "height": 274638,
+            "text": "Alignment, Accountability, Urgency"
+          },
+          {
+            "name": "Slide Number Placeholder 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 7086600,
+            "top": 4767263,
+            "width": 2057400,
+            "height": 274637,
+            "text": "4"
+          },
+          {
+            "name": "Title 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 260098,
+            "top": 445771,
+            "width": 7241846,
+            "height": 616946,
+            "text": "  Additional Benefits = increased Operations Maturity"
+          },
+          {
+            "name": "Picture 5",
+            "shape_type": "PICTURE (13)",
+            "left": 392465,
+            "top": 1184855,
+            "width": 6003883,
+            "height": 3856251
+          },
+          {
+            "name": "TextBox 3",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2285693,
+            "top": 1529825,
+            "width": 1106905,
+            "height": 276999,
+            "text": "2025"
+          },
+          {
+            "name": "TextBox 6",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3729967,
+            "top": 1452655,
+            "width": 1106905,
+            "height": 276999,
+            "text": "2026"
+          },
+          {
+            "name": "TextBox 7",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5081117,
+            "top": 1314155,
+            "width": 1106905,
+            "height": 276999,
+            "text": "2027"
+          },
+          {
+            "name": "TextBox 8",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 785627,
+            "top": 1739159,
+            "width": 1106905,
+            "height": 276999,
+            "text": "2024"
+          },
+          {
+            "name": "TextBox 9",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 6258187,
+            "top": 2544717,
+            "width": 2674085,
+            "height": 507831,
+            "text": "-From commodity  to as-a-Service\nXaaS"
+          },
+          {
+            "name": "Rectangle 10",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 4458026,
+            "top": 2433251,
+            "width": 227948,
+            "height": 276999
+          },
+          {
+            "name": "Rectangle 12",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 4458026,
+            "top": 2433251,
+            "width": 227948,
+            "height": 276999
+          },
+          {
+            "name": "Rectangle 13",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 4458026,
+            "top": 2433251,
+            "width": 227948,
+            "height": 276999
+          },
+          {
+            "name": "Rectangle 14",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 4458026,
+            "top": 2433251,
+            "width": 227948,
+            "height": 276999
+          },
+          {
+            "name": "Rectangle 15",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 4458026,
+            "top": 2433251,
+            "width": 227948,
+            "height": 276999
+          },
+          {
+            "name": "Title 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": -336188,
+            "top": 4904189,
+            "width": 958425,
+            "height": 189697,
+            "text": "  2"
+          },
+          {
+            "name": "Straight Connector 23",
+            "shape_type": "LINE (9)",
+            "left": 398905,
+            "top": 403703,
+            "width": 340,
+            "height": 162967
+          },
+          {
+            "name": "Straight Connector 24",
+            "shape_type": "LINE (9)",
+            "left": 392465,
+            "top": 405156,
+            "width": 6948493,
+            "height": 0
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 5,
+        "layout": "Content: One",
+        "items": [
+          {
+            "name": "Title 1",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 435644,
+            "top": 521035,
+            "width": 8077200,
+            "height": 685800,
+            "text": "Value of the Unified Integrated Management System framework\t"
+          },
+          {
+            "name": "Footer Placeholder 3",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 116094,
+            "top": 4972851,
+            "width": 5257800,
+            "height": 114300,
+            "text": "3"
+          },
+          {
+            "name": "Group 5",
+            "shape_type": "GROUP (6)",
+            "left": 49202,
+            "top": 745779,
+            "width": 6871818,
+            "height": 4378255
+          },
+          {
+            "name": "Teardrop 63",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 5844906,
+            "top": 2434575,
+            "width": 1051427,
+            "height": 1079193
+          },
+          {
+            "name": "TextBox 78",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5915499,
+            "top": 2716636,
+            "width": 904377,
+            "height": 534192,
+            "text": "\u000b\u000bIntegrated compliance framework"
+          },
+          {
+            "name": "Oval 79",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 5864416,
+            "top": 2478888,
+            "width": 126875,
+            "height": 138903
+          },
+          {
+            "name": "Oval 80",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 5847363,
+            "top": 1333045,
+            "width": 126875,
+            "height": 138903
+          },
+          {
+            "name": "Group 99",
+            "shape_type": "GROUP (6)",
+            "left": 6155735,
+            "top": 2557925,
+            "width": 372847,
+            "height": 416247
+          },
+          {
+            "name": "Straight Connector 64",
+            "shape_type": "LINE (9)",
+            "left": 3416579,
+            "top": 1132449,
+            "width": 614060,
+            "height": 445598
+          },
+          {
+            "name": "Straight Connector 66",
+            "shape_type": "LINE (9)",
+            "left": 4033737,
+            "top": 1130674,
+            "width": 1550109,
+            "height": 0
+          },
+          {
+            "name": "Straight Connector 70",
+            "shape_type": "LINE (9)",
+            "left": 4153117,
+            "top": 2341749,
+            "width": 1378973,
+            "height": 10216
+          },
+          {
+            "name": "Straight Connector 72",
+            "shape_type": "LINE (9)",
+            "left": 4177938,
+            "top": 3457860,
+            "width": 1498745,
+            "height": 17292
+          },
+          {
+            "name": "Straight Connector 74",
+            "shape_type": "LINE (9)",
+            "left": 3416579,
+            "top": 4259650,
+            "width": 299080,
+            "height": 713201
+          },
+          {
+            "name": "Straight Connector 76",
+            "shape_type": "LINE (9)",
+            "left": 3716121,
+            "top": 4966382,
+            "width": 1999916,
+            "height": 0
+          },
+          {
+            "name": "Straight Connector 81",
+            "shape_type": "LINE (9)",
+            "left": 358497,
+            "top": 4565273,
+            "width": 1676915,
+            "height": 0
+          },
+          {
+            "name": "Straight Connector 88",
+            "shape_type": "LINE (9)",
+            "left": 2024688,
+            "top": 4259651,
+            "width": 247877,
+            "height": 312092
+          },
+          {
+            "name": "Straight Connector 92",
+            "shape_type": "LINE (9)",
+            "left": 238240,
+            "top": 3469318,
+            "width": 1242021,
+            "height": 1010
+          },
+          {
+            "name": "Straight Connector 98",
+            "shape_type": "LINE (9)",
+            "left": 200882,
+            "top": 2341749,
+            "width": 1275928,
+            "height": 19432
+          },
+          {
+            "name": "Straight Connector 103",
+            "shape_type": "LINE (9)",
+            "left": 250182,
+            "top": 996074,
+            "width": 1676987,
+            "height": 2554
+          },
+          {
+            "name": "Straight Connector 105",
+            "shape_type": "LINE (9)",
+            "left": 1927169,
+            "top": 996769,
+            "width": 362362,
+            "height": 585449
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 6,
+        "layout": "Content: One",
+        "items": [
+          {
+            "name": "Slide Number Placeholder 4",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 7086600,
+            "top": 4857750,
+            "width": 1527048,
+            "height": 114300,
+            "text": "6"
+          },
+          {
+            "name": "Shape 315",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 2575775,
+            "top": 428931,
+            "width": 3537122,
+            "height": 479934,
+            "text": "The GRC roadmap development will be collaborative …"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 689360,
+            "top": 906003,
+            "width": 1575524,
+            "height": 479605,
+            "text": "Development of Governance Roadmap"
+          },
+          {
+            "name": "Title 8",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 533400,
+            "top": 514350,
+            "width": 2042375,
+            "height": 309096,
+            "text": "Operating as ONE"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2338667,
+            "top": 906003,
+            "width": 1575524,
+            "height": 479605,
+            "text": "UIMS Risk & Controls Assessment and Gaps Analysis"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3986556,
+            "top": 905971,
+            "width": 1575524,
+            "height": 479638,
+            "text": "UIMS Technology Needs Assessment and Deployment"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5606295,
+            "top": 905971,
+            "width": 1575524,
+            "height": 479637,
+            "text": "UIMS Continuous Controls Monitoring Program Development"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 7266733,
+            "top": 905971,
+            "width": 1575524,
+            "height": 479637,
+            "text": "Service Organization Controls Audit"
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 689360,
+            "top": 1417449,
+            "width": 1575524,
+            "height": 1306438,
+            "text": "Identify the certification /compliance frameworks to be in scope.\nIdentify services and related systems to be included in the UIMS.\nDevelop the communications and awareness strategy for the UIMS program.\n"
+          },
+          {
+            "name": "Shape 317",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": -1551792,
+            "top": 2653065,
+            "width": 3832286,
+            "height": 338098,
+            "text": "PwC                                \t      Acme Telco"
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 664849,
+            "top": 3059628,
+            "width": 1575524,
+            "height": 1909344,
+            "text": "Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.\nDiscuss and agree with the EBU team on the services and related systems to be included in the UIMS.\nSupport the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2338667,
+            "top": 1436766,
+            "width": 1575524,
+            "height": 463623,
+            "text": "Identify the current processes and controls that would support the UIMS.\n"
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3986556,
+            "top": 1447665,
+            "width": 1575524,
+            "height": 551784,
+            "text": "Implement a GRC solution to support the UIMS.\nImplement  automation and analytics tool."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5615128,
+            "top": 1447665,
+            "width": 1575524,
+            "height": 1196944,
+            "text": "Implement UIMS Continuous Controls Monitoring program.\nDevelop program design for sustainable integrated third party audit program.\nUpdate the communications and awareness strategy for the UIMS program."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 7263325,
+            "top": 1436765,
+            "width": 1575524,
+            "height": 1121279,
+            "text": "Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.\nSelect the Assurance Framework- Trust Services principles and criteria to be used."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2335266,
+            "top": 3042386,
+            "width": 1575524,
+            "height": 1926586,
+            "text": "Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.\nDocument “as-is” existing policies and procedures aligned to the UIMS.\nIdentify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3944154,
+            "top": 3042386,
+            "width": 1575524,
+            "height": 1926586,
+            "text": "Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.\nProvide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5647935,
+            "top": 3042386,
+            "width": 1575524,
+            "height": 1926586,
+            "text": "Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.\nSupport the updating of the communications and training strategy."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 7351716,
+            "top": 3045315,
+            "width": 1575524,
+            "height": 1692942,
+            "text": "Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.\nPerform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.\n\n"
+          },
+          {
+            "name": "Left-Right Arrow 1",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 689360,
+            "top": 2750032,
+            "width": 8186879,
+            "height": 292354,
+            "text": "RACI Definition and Ownership"
+          },
+          {
+            "name": "Title 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": -114862,
+            "top": 4937975,
+            "width": 958425,
+            "height": 189697,
+            "text": "4"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 7,
+        "layout": "Content: One",
+        "items": [
+          {
+            "name": "Slide Number Placeholder 4",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 7086600,
+            "top": 4857750,
+            "width": 1527048,
+            "height": 114300,
+            "text": "7"
+          },
+          {
+            "name": "Shape 315",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 2575775,
+            "top": 428931,
+            "width": 3537122,
+            "height": 479934,
+            "text": "The GRC roadmap development will be collaborative …"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 689360,
+            "top": 906003,
+            "width": 1575524,
+            "height": 479605,
+            "text": "Development of Governance Roadmap"
+          },
+          {
+            "name": "Title 8",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 533400,
+            "top": 514350,
+            "width": 2042375,
+            "height": 309096,
+            "text": "Operating as ONE"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2338667,
+            "top": 906003,
+            "width": 1575524,
+            "height": 479605,
+            "text": "UIMS Risk & Controls Assessment and Gaps Analysis"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3986556,
+            "top": 905971,
+            "width": 1575524,
+            "height": 479638,
+            "text": "UIMS Technology Needs Assessment and Deployment"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5606295,
+            "top": 905971,
+            "width": 1575524,
+            "height": 479637,
+            "text": "UIMS Continuous Controls Monitoring Program Development"
+          },
+          {
+            "name": "Shape 298",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 7266733,
+            "top": 905971,
+            "width": 1575524,
+            "height": 479637,
+            "text": "Service Organization Controls Audit"
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 689360,
+            "top": 1417449,
+            "width": 1575524,
+            "height": 1306438,
+            "text": "Identify the certification /compliance frameworks to be in scope.\nIdentify services and related systems to be included in the UIMS.\nDevelop the communications and awareness strategy for the UIMS program.\n"
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 664849,
+            "top": 3059628,
+            "width": 1575524,
+            "height": 1909344,
+            "text": "Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.\nDiscuss and agree with the EBU team on the services and related systems to be included in the UIMS.\nSupport the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2338667,
+            "top": 1436766,
+            "width": 1575524,
+            "height": 463623,
+            "text": "Identify the current processes and controls that would support the UIMS.\n"
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3986556,
+            "top": 1447665,
+            "width": 1575524,
+            "height": 551784,
+            "text": "Implement a GRC solution to support the UIMS.\nImplement  automation and analytics tool."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5615128,
+            "top": 1447665,
+            "width": 1575524,
+            "height": 1196944,
+            "text": "Implement UIMS Continuous Controls Monitoring program.\nDevelop program design for sustainable integrated third party audit program.\nUpdate the communications and awareness strategy for the UIMS program."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 7263325,
+            "top": 1436765,
+            "width": 1575524,
+            "height": 1121279,
+            "text": "Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.\nSelect the Assurance Framework- Trust Services principles and criteria to be used."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 2335266,
+            "top": 3042386,
+            "width": 1575524,
+            "height": 1926586,
+            "text": "Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.\nDocument “as-is” existing policies and procedures aligned to the UIMS.\nIdentify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 3944154,
+            "top": 3042386,
+            "width": 1575524,
+            "height": 1926586,
+            "text": "Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.\nProvide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 5647935,
+            "top": 3042386,
+            "width": 1575524,
+            "height": 1926586,
+            "text": "Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.\nSupport the updating of the communications and training strategy."
+          },
+          {
+            "name": "Shape 302",
+            "shape_type": "TEXT_BOX (17)",
+            "left": 7351716,
+            "top": 3045315,
+            "width": 1575524,
+            "height": 1692942,
+            "text": "Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.\nPerform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.\n\n"
+          },
+          {
+            "name": "Left-Right Arrow 1",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": 689360,
+            "top": 2750032,
+            "width": 8186879,
+            "height": 292354,
+            "text": "RACI Definition and Ownership"
+          },
+          {
+            "name": "Title 2",
+            "shape_type": "TEXT_BOX (17)",
+            "left": -114862,
+            "top": 4937975,
+            "width": 958425,
+            "height": 189697,
+            "text": "4"
+          },
+          {
+            "name": "Shape 317",
+            "shape_type": "AUTO_SHAPE (1)",
+            "left": -1551792,
+            "top": 2653065,
+            "width": 3832286,
+            "height": 338098,
+            "text": "PwC                                \t      Acme Telco"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "slide": 8,
+        "layout": "Cover Page 1",
+        "items": [
+          {
+            "name": "Text Placeholder 2",
+            "shape_type": "PLACEHOLDER (14)",
+            "left": 5294872,
+            "top": 1942816,
+            "width": 3582126,
+            "height": 2772456,
+            "text": "Thank you!"
+          },
+          {
+            "name": "Picture 5",
+            "shape_type": "PICTURE (13)",
+            "left": 1110092,
+            "top": 2053525,
+            "width": 1284398,
+            "height": 839906
+          },
+          {
+            "name": "Picture 14",
+            "shape_type": "PICTURE (13)",
+            "left": 770868,
+            "top": 333676,
+            "width": 740440,
+            "height": 642717
+          },
+          {
+            "name": "Picture 15",
+            "shape_type": "PICTURE (13)",
+            "left": 446136,
+            "top": 3146156,
+            "width": 649463,
+            "height": 583416
+          },
+          {
+            "name": "Picture 7",
+            "shape_type": "PICTURE (13)",
+            "left": 2529902,
+            "top": 1942816,
+            "width": 1319228,
+            "height": 1257868
+          },
+          {
+            "name": "Picture 8",
+            "shape_type": "PICTURE (13)",
+            "left": 894034,
+            "top": 3853143,
+            "width": 1234547,
+            "height": 1211685
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  }
+}

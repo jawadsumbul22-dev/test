@@ -1,0 +1,11 @@
+flowchart TB
+    Start[Administrator registers merchant] --> Pending[Pending status]
+    Pending --> Review[Review merchant details]
+    Review --> Verified[Set verified]
+    Review --> Suspended[Set suspended]
+    Verified --> Products[Create active products in a category]
+    Products --> Checkout[Products eligible for customer checkout]
+    Verified --> Suspended
+    Suspended --> Verified
+    Customer[Register customer and linked login] --> Active[Active customer can place own orders]
+    Active --> Disabled[Administrator deactivates login]

@@ -1,0 +1,8 @@
+flowchart LR
+    Order[Order creation] --> Shipment[(Shipment with tracking number)]
+    Staff[Authorized operations staff] --> Rules[Validate state transition and lock order]
+    Shipment --> Rules
+    Rules --> History[(Status - location - note - time)]
+    Rules --> Delivery[On delivery: capture simulated payment and deduct stock once]
+    History --> Visibility[Order detail and delivery CSV]
+    Rules --> Delay[Delay and recovery states]

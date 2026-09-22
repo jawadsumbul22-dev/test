@@ -1,0 +1,221 @@
+{
+  "sourcePptx": "C:\\Users\\HP\\Downloads\\Sample Presentation EduQual Diplomas (1).pptx",
+  "mapPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-frame-map.json",
+  "output": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter.pptx",
+  "outputBytes": 691509,
+  "sourceSlideCount": 8,
+  "slideCount": 19,
+  "previewDir": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview",
+  "layoutDir": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 12,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "problem and business value",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 2,
+      "narrativeRole": "scope and implementation boundary",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 3,
+      "narrativeRole": "architecture diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 16,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-04.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-04.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-04.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-04.layout.json"
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 3,
+      "narrativeRole": "stock relationship diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 16,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-05.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-05.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-05.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-05.layout.json"
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 3,
+      "narrativeRole": "transaction sequence diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 16,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-06.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-06.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-06.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-06.layout.json"
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 2,
+      "narrativeRole": "cross border pricing rules",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-07.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-07.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-07.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-07.layout.json"
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 2,
+      "narrativeRole": "shipment traceability",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-08.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-08.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-08.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-08.layout.json"
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 3,
+      "narrativeRole": "forecast pipeline diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 16,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-09.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-09.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-09.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-09.layout.json"
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 3,
+      "narrativeRole": "replenishment relationship diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 16,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-10.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-10.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-10.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-10.layout.json"
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 3,
+      "narrativeRole": "monitoring dataflow diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 16,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-11.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-11.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-11.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-11.layout.json"
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 4,
+      "narrativeRole": "genuine application screenshot",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 20,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-12.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-12.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-12.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-12.layout.json"
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 2,
+      "narrativeRole": "implemented security controls and boundaries",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-13.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-13.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-13.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-13.layout.json"
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 2,
+      "narrativeRole": "test evidence and evaluation limits",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-14.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-14.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-14.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-14.layout.json"
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 2,
+      "narrativeRole": "end to end demonstration sequence",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-15.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-15.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-15.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-15.layout.json"
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 2,
+      "narrativeRole": "critical evaluation and prioritized improvements",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-16.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-16.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-16.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-16.layout.json"
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 2,
+      "narrativeRole": "closing thesis and invitation",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-17.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-17.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-17.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-17.layout.json"
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 2,
+      "narrativeRole": "viva prompts and concise technical answers",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-18.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-18.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-18.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-18.layout.json"
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 2,
+      "narrativeRole": "evidence provenance and transparent assistance",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-preview\\starter-slide-19.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-19.png",
+      "layoutPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout\\starter-slide-19.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-19.layout.json"
+    }
+  ]
+}

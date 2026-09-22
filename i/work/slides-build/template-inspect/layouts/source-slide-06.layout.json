@@ -1,0 +1,2354 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x8f69ofe",
+    "id": "x8f69ofe",
+    "slide": 6,
+    "layoutId": "/ppt/slideLayouts/slideLayout14.xml",
+    "layoutName": "Content: One",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "PwC Red",
+    "colors": {
+      "accent1": "#E0301E",
+      "accent2": "#A32020",
+      "accent3": "#DB536A",
+      "accent4": "#602320",
+      "accent5": "#FFB600",
+      "accent6": "#DC6900",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#E0301E",
+      "lt2": "#FFFFFF",
+      "hlink": "#E0301E",
+      "folHlink": "#E0301E"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout14.xml",
+      "name": "Content: One",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster2.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout14.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            56,
+            54,
+            848,
+            72
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout14.xml/31",
+          "id": "31",
+          "name": "Content Placeholder 26",
+          "bbox": [
+            56,
+            138,
+            848,
+            348
+          ],
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout14.xml/27",
+          "id": "27",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            56,
+            498,
+            552,
+            12
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout14.xml/15",
+          "id": "15",
+          "name": "Shape 14",
+          "bbox": [
+            466,
+            -378,
+            12,
+            864
+          ],
+          "rotation": 90,
+          "horizontalFlip": true,
+          "verticalFlip": true,
+          "geometry": "bentConnector2",
+          "lineColor": "tx2",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout14.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            744,
+            510,
+            160.32,
+            12
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›",
+                  "color": "#000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout14.xml/10",
+          "id": "10",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            744,
+            498,
+            160,
+            12
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster2.xml",
+      "type": "master",
+      "backgroundColor": "bg1",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            56,
+            54,
+            848,
+            72
+          ],
+          "geometry": "rect",
+          "text": "Click to edit\nMaster title style",
+          "textPreview": "Click to edit | Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit\nMaster title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit"
+                },
+                {
+                  "index": 2,
+                  "text": "\n"
+                },
+                {
+                  "index": 3,
+                  "text": "Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            56,
+            138,
+            848,
+            348
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster2.xml/10",
+          "id": "10",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            55.68,
+            498,
+            552.32,
+            11.88
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98rqt4r6",
+      "id": "5",
+      "name": "Slide Number Placeholder 4",
+      "bbox": [
+        744,
+        510,
+        160.32,
+        12
+      ],
+      "text": "6",
+      "textPreview": "6",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Arial",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6",
+          "runs": [
+            {
+              "index": 1,
+              "text": "6",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7m98ru9g",
+      "id": "7",
+      "name": "Shape 315",
+      "bbox": [
+        270.42,
+        45.03,
+        371.35,
+        50.39
+      ],
+      "geometry": "rect",
+      "text": "The GRC roadmap development will be collaborative …",
+      "textPreview": "The GRC roadmap development will be collaborative …",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.59,
+          "right": 7.19,
+          "bottom": 3.59,
+          "left": 7.19
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The GRC roadmap development will be collaborative …"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The GRC roadmap development will be collaborative …",
+          "lineSpacingPercent": 110000,
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The GRC roadmap development will be collaborative …",
+              "fontSize": 14.67,
+              "typeface": "Calibri Light",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oryp8fah",
+      "id": "8",
+      "name": "Shape 298",
+      "bbox": [
+        72.37,
+        95.12,
+        165.41,
+        50.35
+      ],
+      "geometry": "rect",
+      "text": "Development of Governance Roadmap",
+      "textPreview": "Development of Governance Roadmap",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Development of"
+          },
+          {
+            "index": 2,
+            "text": "Governance Roadmap"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Development of Governance Roadmap",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Development of Governance Roadmap",
+              "fontSize": 12,
+              "typeface": "Georgia",
+              "color": "lt1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pc76hkr2",
+      "id": "9",
+      "name": "Title 8",
+      "bbox": [
+        56,
+        54,
+        214.42,
+        32.45
+      ],
+      "text": "Operating as ONE",
+      "textPreview": "Operating as ONE",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 24,
+        "typeface": "Calibri Light",
+        "color": "tx1",
+        "bold": true,
+        "italic": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Operating as ONE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Operating as ONE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Operating as ONE",
+              "fontSize": 21.33
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 100000
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4bupgn6",
+      "id": "10",
+      "name": "Shape 298",
+      "bbox": [
+        245.53,
+        95.12,
+        165.41,
+        50.35
+      ],
+      "geometry": "rect",
+      "text": "UIMS Risk & Controls Assessment and Gaps Analysis",
+      "textPreview": "UIMS Risk & Controls Assessment and Gaps Analysis",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UIMS Risk & Controls"
+          },
+          {
+            "index": 2,
+            "text": "Assessment and Gaps"
+          },
+          {
+            "index": 3,
+            "text": "Analysis"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UIMS Risk & Controls Assessment and Gaps Analysis",
+          "runs": [
+            {
+              "index": 1,
+              "text": "UIMS Risk & Controls Assessment and Gaps Analysis",
+              "fontSize": 12,
+              "typeface": "Georgia",
+              "color": "lt1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w32twb6l",
+      "id": "11",
+      "name": "Shape 298",
+      "bbox": [
+        418.54,
+        95.12,
+        165.41,
+        50.36
+      ],
+      "geometry": "rect",
+      "text": "UIMS Technology Needs Assessment and Deployment",
+      "textPreview": "UIMS Technology Needs Assessment and Deployment",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UIMS Technology Needs"
+          },
+          {
+            "index": 2,
+            "text": "Assessment and"
+          },
+          {
+            "index": 3,
+            "text": "Deployment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UIMS Technology Needs Assessment and Deployment",
+          "runs": [
+            {
+              "index": 1,
+              "text": "UIMS Technology Needs Assessment and Deployment",
+              "fontSize": 12,
+              "typeface": "Georgia",
+              "color": "lt1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2tcn650",
+      "id": "12",
+      "name": "Shape 298",
+      "bbox": [
+        588.59,
+        95.12,
+        165.41,
+        50.36
+      ],
+      "geometry": "rect",
+      "text": "UIMS Continuous Controls Monitoring Program Development",
+      "textPreview": "UIMS Continuous Controls Monitoring Program Development",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UIMS Continuous"
+          },
+          {
+            "index": 2,
+            "text": "Controls Monitoring"
+          },
+          {
+            "index": 3,
+            "text": "Program Development"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UIMS Continuous Controls Monitoring Program Development",
+          "runs": [
+            {
+              "index": 1,
+              "text": "UIMS Continuous Controls Monitoring Program Development",
+              "fontSize": 12,
+              "typeface": "Georgia",
+              "color": "lt1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1kbu1ov",
+      "id": "13",
+      "name": "Shape 298",
+      "bbox": [
+        762.91,
+        95.12,
+        165.41,
+        50.36
+      ],
+      "geometry": "rect",
+      "text": "Service Organization Controls Audit",
+      "textPreview": "Service Organization Controls Audit",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Service Organization"
+          },
+          {
+            "index": 2,
+            "text": "Controls Audit"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Service Organization Controls Audit",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Service Organization Controls Audit",
+              "fontSize": 12,
+              "typeface": "Georgia",
+              "color": "lt1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5svutgni",
+      "id": "14",
+      "name": "Shape 302",
+      "bbox": [
+        72.37,
+        148.81,
+        165.41,
+        137.16
+      ],
+      "geometry": "rect",
+      "text": "Identify the certification /compliance frameworks to be in scope.\nIdentify services and related systems to be included in the UIMS.\nDevelop the communications and awareness strategy for the UIMS program.\n",
+      "textPreview": "Identify the certification /compliance frameworks to be in scope. | Identify services and related systems to be included in the UIMS. | D...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 11,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Identify the certification"
+          },
+          {
+            "index": 2,
+            "text": "/compliance frameworks to"
+          },
+          {
+            "index": 3,
+            "text": "be in scope."
+          },
+          {
+            "index": 4,
+            "text": "•Identify services and related"
+          },
+          {
+            "index": 5,
+            "text": "systems to be included in"
+          },
+          {
+            "index": 6,
+            "text": "the UIMS."
+          },
+          {
+            "index": 7,
+            "text": "•Develop the"
+          },
+          {
+            "index": 8,
+            "text": "communications and"
+          },
+          {
+            "index": 9,
+            "text": "awareness strategy for the"
+          },
+          {
+            "index": 10,
+            "text": "UIMS program."
+          },
+          {
+            "index": 11,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Identify the certification /compliance frameworks to be in scope.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Identify the certification /compliance frameworks to be in scope.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Identify services and related systems to be included in the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Identify services and related systems to be included in the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Develop the communications and awareness strategy for the UIMS program.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Develop the communications and awareness strategy for the UIMS program.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6dcr65c",
+      "id": "16",
+      "name": "Shape 317",
+      "bbox": [
+        -162.92,
+        278.54,
+        402.34,
+        35.5
+      ],
+      "rotation": -90,
+      "geometry": "leftRightArrow",
+      "text": "PwC                                \t      Acme Telco",
+      "textPreview": "PwC                                \t      Acme Telco",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PwC                                      Acme Telco"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PwC                                \t      Acme Telco",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PwC                                \t      Acme Telco",
+              "fontSize": 13.33,
+              "typeface": "Georgia",
+              "color": "bg2",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#7F7F7F",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i54bylor",
+      "id": "17",
+      "name": "Shape 302",
+      "bbox": [
+        69.8,
+        321.22,
+        165.41,
+        200.46
+      ],
+      "geometry": "rect",
+      "text": "Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.\nDiscuss and agree with the EBU team on the services and related systems to be included in the UIMS.\nSupport the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team.",
+      "textPreview": "Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS. | Discuss and agree with the EB...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 14,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Provide advice on other"
+          },
+          {
+            "index": 2,
+            "text": "certification and"
+          },
+          {
+            "index": 3,
+            "text": "compliance frameworks"
+          },
+          {
+            "index": 4,
+            "text": "used in industry applicable"
+          },
+          {
+            "index": 5,
+            "text": "for the UIMS."
+          },
+          {
+            "index": 6,
+            "text": "•Discuss and agree with the"
+          },
+          {
+            "index": 7,
+            "text": "EBU team on the services"
+          },
+          {
+            "index": 8,
+            "text": "and related systems to be"
+          },
+          {
+            "index": 9,
+            "text": "included in the UIMS."
+          },
+          {
+            "index": 10,
+            "text": "•Support the development of"
+          },
+          {
+            "index": 11,
+            "text": "the overall communications"
+          },
+          {
+            "index": 12,
+            "text": "and awareness strategy to"
+          },
+          {
+            "index": 13,
+            "text": "be developed and rolled out"
+          },
+          {
+            "index": 14,
+            "text": "by the EBU team."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Discuss and agree with the EBU team on the services and related systems to be included in the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Discuss and agree with the EBU team on the services and related systems to be included in the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Support the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Support the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twfux0ne",
+      "id": "18",
+      "name": "Shape 302",
+      "bbox": [
+        245.53,
+        150.84,
+        165.41,
+        48.67
+      ],
+      "geometry": "rect",
+      "text": "Identify the current processes and controls that would support the UIMS.\n",
+      "textPreview": "Identify the current processes and controls that would support the UIMS. |",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Identify the current processes"
+          },
+          {
+            "index": 2,
+            "text": "and controls that would"
+          },
+          {
+            "index": 3,
+            "text": "support the UIMS."
+          },
+          {
+            "index": 4,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Identify the current processes and controls that would support the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Identify the current processes and controls that would support the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svmt4v6t",
+      "id": "19",
+      "name": "Shape 302",
+      "bbox": [
+        418.54,
+        151.99,
+        165.41,
+        57.93
+      ],
+      "geometry": "rect",
+      "text": "Implement a GRC solution to support the UIMS.\nImplement  automation and analytics tool.",
+      "textPreview": "Implement a GRC solution to support the UIMS. | Implement  automation and analytics tool.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Implement a GRC solution to"
+          },
+          {
+            "index": 2,
+            "text": "support the UIMS."
+          },
+          {
+            "index": 3,
+            "text": "•Implement  automation and"
+          },
+          {
+            "index": 4,
+            "text": "analytics tool."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Implement a GRC solution to support the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Implement a GRC solution to support the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Implement  automation and analytics tool.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Implement  automation and analytics tool.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbe5g3ih",
+      "id": "20",
+      "name": "Shape 302",
+      "bbox": [
+        589.51,
+        151.99,
+        165.41,
+        125.66
+      ],
+      "geometry": "rect",
+      "text": "Implement UIMS Continuous Controls Monitoring program.\nDevelop program design for sustainable integrated third party audit program.\nUpdate the communications and awareness strategy for the UIMS program.",
+      "textPreview": "Implement UIMS Continuous Controls Monitoring program. | Develop program design for sustainable integrated third party audit program. | U...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Implement UIMS Continuous"
+          },
+          {
+            "index": 2,
+            "text": "Controls Monitoring"
+          },
+          {
+            "index": 3,
+            "text": "program."
+          },
+          {
+            "index": 4,
+            "text": "•Develop program design for"
+          },
+          {
+            "index": 5,
+            "text": "sustainable integrated third"
+          },
+          {
+            "index": 6,
+            "text": "party audit program."
+          },
+          {
+            "index": 7,
+            "text": "•Update the communications"
+          },
+          {
+            "index": 8,
+            "text": "and awareness strategy for"
+          },
+          {
+            "index": 9,
+            "text": "the UIMS program."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Implement UIMS Continuous Controls Monitoring program.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Implement UIMS Continuous Controls Monitoring program.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Develop program design for sustainable integrated third party audit program.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Develop program design for sustainable integrated third party audit program.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Update the communications and awareness strategy for the UIMS program.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Update the communications and awareness strategy for the UIMS program.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcnm98zm",
+      "id": "21",
+      "name": "Shape 302",
+      "bbox": [
+        762.55,
+        150.84,
+        165.41,
+        117.72
+      ],
+      "geometry": "rect",
+      "text": "Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.\nSelect the Assurance Framework- Trust Services principles and criteria to be used.",
+      "textPreview": "Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services. | Select the Assurance Framework-...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Specify the controls from the"
+          },
+          {
+            "index": 2,
+            "text": "UIMS to support the"
+          },
+          {
+            "index": 3,
+            "text": "Managed Services/COE, and"
+          },
+          {
+            "index": 4,
+            "text": "Wireless/Wireline Services."
+          },
+          {
+            "index": 5,
+            "text": "•Select the Assurance"
+          },
+          {
+            "index": 6,
+            "text": "Framework- Trust Services"
+          },
+          {
+            "index": 7,
+            "text": "principles and criteria to be"
+          },
+          {
+            "index": 8,
+            "text": "used."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Select the Assurance Framework- Trust Services principles and criteria to be used.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Select the Assurance Framework- Trust Services principles and criteria to be used.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpwnet0b",
+      "id": "22",
+      "name": "Shape 302",
+      "bbox": [
+        245.17,
+        319.41,
+        165.41,
+        202.27
+      ],
+      "geometry": "rect",
+      "text": "Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.\nDocument “as-is” existing policies and procedures aligned to the UIMS.\nIdentify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements.",
+      "textPreview": "Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS. | D...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Perform detailed process"
+          },
+          {
+            "index": 2,
+            "text": "walkthroughs in order to"
+          },
+          {
+            "index": 3,
+            "text": "understand the current state"
+          },
+          {
+            "index": 4,
+            "text": "of processes and controls that"
+          },
+          {
+            "index": 5,
+            "text": "would support the UIMS."
+          },
+          {
+            "index": 6,
+            "text": "•Document “as-is” existing"
+          },
+          {
+            "index": 7,
+            "text": "policies and procedures"
+          },
+          {
+            "index": 8,
+            "text": "aligned to the UIMS."
+          },
+          {
+            "index": 9,
+            "text": "•Identify risks and control"
+          },
+          {
+            "index": 10,
+            "text": "gaps in meeting the UIMS"
+          },
+          {
+            "index": 11,
+            "text": "requirements and advise on"
+          },
+          {
+            "index": 12,
+            "text": "remediation plans to prepare"
+          },
+          {
+            "index": 13,
+            "text": "for readiness against"
+          },
+          {
+            "index": 14,
+            "text": "compliance and audit"
+          },
+          {
+            "index": 15,
+            "text": "requirements."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Document “as-is” existing policies and procedures aligned to the UIMS.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Document “as-is” existing policies and procedures aligned to the UIMS.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Identify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Identify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq547yhw",
+      "id": "23",
+      "name": "Shape 302",
+      "bbox": [
+        414.08,
+        319.41,
+        165.41,
+        202.27
+      ],
+      "geometry": "rect",
+      "text": "Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.\nProvide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis.",
+      "textPreview": "Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers. | Provide advice on requirements analysis...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 11,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Provide support on"
+          },
+          {
+            "index": 2,
+            "text": "requirements analysis for a"
+          },
+          {
+            "index": 3,
+            "text": "GRC solution in"
+          },
+          {
+            "index": 4,
+            "text": "considerations for UIMS"
+          },
+          {
+            "index": 5,
+            "text": "drivers."
+          },
+          {
+            "index": 6,
+            "text": "•Provide advice on"
+          },
+          {
+            "index": 7,
+            "text": "requirements analysis for"
+          },
+          {
+            "index": 8,
+            "text": "automation and analytics tool"
+          },
+          {
+            "index": 9,
+            "text": "(machine learning"
+          },
+          {
+            "index": 10,
+            "text": "capabilities) to be deployed in"
+          },
+          {
+            "index": 11,
+            "text": "EBU contract analysis."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Provide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Provide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fy5k3id",
+      "id": "24",
+      "name": "Shape 302",
+      "bbox": [
+        592.96,
+        319.41,
+        165.41,
+        202.27
+      ],
+      "geometry": "rect",
+      "text": "Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.\nSupport the updating of the communications and training strategy.",
+      "textPreview": "Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuou...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Provide support and advice"
+          },
+          {
+            "index": 2,
+            "text": "on the organization design,"
+          },
+          {
+            "index": 3,
+            "text": "process, technology solutions"
+          },
+          {
+            "index": 4,
+            "text": "development to roll out a"
+          },
+          {
+            "index": 5,
+            "text": "sustainable UIMS Continuous"
+          },
+          {
+            "index": 6,
+            "text": "Controls Monitoring"
+          },
+          {
+            "index": 7,
+            "text": "program."
+          },
+          {
+            "index": 8,
+            "text": "•Support the updating of the"
+          },
+          {
+            "index": 9,
+            "text": "communications and training"
+          },
+          {
+            "index": 10,
+            "text": "strategy."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Support the updating of the communications and training strategy.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Support the updating of the communications and training strategy.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lg76d8zy",
+      "id": "25",
+      "name": "Shape 302",
+      "bbox": [
+        771.83,
+        319.72,
+        165.41,
+        177.74
+      ],
+      "geometry": "rect",
+      "text": "Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.\nPerform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.\n\n",
+      "textPreview": "Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers. ...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 3.6,
+          "right": 7.2,
+          "bottom": 3.6,
+          "left": 7.2
+        }
+      },
+      "textLayout": {
+        "lineCount": 13,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•Perform SOC 2 audit on the"
+          },
+          {
+            "index": 2,
+            "text": "controls supporting Acme’"
+          },
+          {
+            "index": 3,
+            "text": "Managed Services/ COE  and"
+          },
+          {
+            "index": 4,
+            "text": "wireless/ wireline services"
+          },
+          {
+            "index": 5,
+            "text": "provided to Acme’ customers."
+          },
+          {
+            "index": 6,
+            "text": "•Perform SOC 2 integrated"
+          },
+          {
+            "index": 7,
+            "text": "(multi customer) audit on the"
+          },
+          {
+            "index": 8,
+            "text": "security and availability"
+          },
+          {
+            "index": 9,
+            "text": "controls supporting Acme’"
+          },
+          {
+            "index": 10,
+            "text": "Wireless/Wireline Services"
+          },
+          {
+            "index": 11,
+            "text": "provided to Acme’ customers."
+          },
+          {
+            "index": 12,
+            "text": ""
+          },
+          {
+            "index": 13,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Perform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Perform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.",
+              "fontSize": 10.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "lt1",
+      "lineColor": "#CF1316",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhg7epsj",
+      "id": "2",
+      "name": "Left-Right Arrow 1",
+      "bbox": [
+        72.37,
+        288.72,
+        859.51,
+        30.69
+      ],
+      "geometry": "leftRightArrow",
+      "text": "RACI Definition and Ownership",
+      "textPreview": "RACI Definition and Ownership",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RACI Definition and Ownership"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RACI Definition and Ownership",
+          "runs": [
+            {
+              "index": 1,
+              "text": "RACI Definition and Ownership",
+              "fontSize": 13.33,
+              "typeface": "Georgia",
+              "color": "bg1"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#CF1316",
+      "lineWidth": 0.33
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zep4byhs",
+      "id": "27",
+      "name": "Title 2",
+      "bbox": [
+        -12.06,
+        518.42,
+        100.62,
+        19.92
+      ],
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "Calibri Light",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 10.67,
+              "typeface": "Calibri"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "lineSpacingPercent": 90000
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

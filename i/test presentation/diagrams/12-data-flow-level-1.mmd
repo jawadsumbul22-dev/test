@@ -1,0 +1,15 @@
+flowchart LR
+    Admin[Account and catalogue input] --> P1[Manage marketplace]
+    P1 --> D1[(Users - merchants - customers - products)]
+    Buyer[Checkout request] --> P2[Validate and reserve order]
+    D1 --> P2
+    P2 --> D2[(Orders - stock - payments - shipments)]
+    Staff[Shipment event] --> P3[Validate transition and fulfil]
+    P3 --> D2
+    CSV[Validated CSV or demo seed] --> D3[(Daily sales history)]
+    D3 --> P4[Train and evaluate forecast]
+    D2 -->|Available stock snapshot| P4
+    P4 --> D4[(Forecasts - recommendations - evaluations)]
+    D2 --> P5[Executive report aggregation]
+    D4 --> P5
+    P5 --> Report[UI and CSV reports]

@@ -1,0 +1,10 @@
+flowchart LR
+    Buyers[International customers] --> Platform[GlobalCommerce local proof of concept]
+    Merchants[Verified merchants] --> Platform
+    Staff[Operations and analysts] --> Platform
+    Platform --> Marketplace[Marketplace records]
+    Platform --> Inventory[Inventory and warehouses]
+    Platform --> Orders[Orders and logistics]
+    Platform --> Forecast[Demand planning]
+    Platform --> Reports[Executive reports]
+    Platform -. Future adapters .-> Providers[Real payments - carriers - trade data]

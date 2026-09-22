@@ -1,0 +1,22 @@
+Double-click GlobalCommerce Exam.exe.
+
+BEFORE EXAM DAY: click Prepare / rebuild and wait until the website opens.
+ON EXAM DAY: click Start project. It starts Docker and opens your website.
+Use Presentation, PDF backup and 18 diagrams buttons for your exam materials.
+Use Stop project after the exam. Your saved data is preserved.
+
+Login: admin@globalcommerce.local / Admin123!
+
+This is a Windows launcher, not a standalone copy of the full system.
+Keep Docker Desktop installed and keep the original project folder in place.
+You can move this whole presentation folder to your Desktop; keep its contents
+together. If you move the original project, update project-path.txt.
+The launcher is locally compiled and unsigned, so Windows may show a warning.
+Do not disable Windows security. Contact your administrator if execution is blocked.
+
+No command typing is necessary. The launcher displays progress and errors.
+Prepare / rebuild may need internet. Complete it before the exam, not during it.
+No files are uploaded to GitHub and the launcher never resets your database.
+
+Compilation is checked separately from live Docker startup. A complete live
+startup still needs testing once Docker is available on your machine.

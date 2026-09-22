@@ -1,0 +1,13 @@
+Final review, 28 August 2026
+
+19 slides exported as editable PPTX with 19 speaker-note sections. Imported the final PPTX again and rendered every slide at 1440x810. Individually inspected slides 1–19, then rechecked slide 12 after moving its caption away from the image. Other slides were unchanged in that final pass.
+
+Source reuse: actual duplicated slides from the supplied sample. Original cover art, Georgian serif text treatment, red rules, master/layout hierarchy and typography are retained. Source image and obsolete overlays on source slides 3 and 4 are explicitly replaced/deleted per the frame map. All source PPTX theme XML parts are restored byte-for-byte, as required by the presentation skill; no slide XML is directly authored.
+
+Content QA: order arrows now read 1→2→3→4→5→6; API metrics branch originates at FastAPI, not PostgreSQL. The stock and replenishment calculations are correct and explicitly illustrative. Screenshot is a genuine local inventory view. Unsupported WMF imagery is removed. No statistical performance, production readiness, certified compliance or completed GitHub upload is claimed. All local source paths in notes resolve. Sources include actual code, the supplied guide/topic, and the supplied template.
+
+Layout QA: no off-slide elements in final layout inventory. No unresolved visible template copy or empty slide placeholders. Source cover artwork intentionally bleeds to slide edges. Template callouts intentionally contain their text. Diagram arrows end at node borders and do not cross labels. Caption/image gap on slide 12 was corrected. Page markers use consistent positions and font sizes on slides 2–19; cover has no page marker.
+
+Fidelity checker: broad workspace scan gave two false-positive direct-mutation flags for audit-pptx.py and run-tool.mjs. Inspected both: audit uses ZipFile in read mode only, and adapter implements unzip listing/read output only; neither modifies PPTX. Repeated fidelity check against a staging directory containing all final authoring sources (build-deck.mjs, content.mjs, finalize-theme.ps1) passed with zero issues. Exact theme restoration is the skill-mandated exception. Structural audit and ZIP checks passed: 19 slides, 19 notes, full scripts/cues/sources, exact original themes.
+
+Delivery: one final PPTX in project/docs; builder intermediates and export inspection files remain under work/slides-build. No software source changes, no GitHub upload, no real external trade transactions, and no demo business records changed for this deck. Docker Desktop was started; local services remain running.

@@ -1,0 +1,7 @@
+flowchart LR
+    Browser[React browser console] -->|HTTP with JWT on localhost| API[FastAPI modular monolith]
+    API --> DB[(PostgreSQL business data)]
+    API --> Redis[(Redis rate counters)]
+    Prom[Prometheus] -->|Scrape metrics| API
+    Grafana[Grafana] -->|Query| Prom
+    API -->|Monitoring summaries| Prom

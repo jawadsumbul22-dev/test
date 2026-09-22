@@ -1,0 +1,383 @@
+1. Introduction
+Suggested time: 40 seconds
+
+SAY IN YOUR OWN WORDS
+Assalamualaikum. My name is Jawad Ahmad. This project connects marketplace management, inventory, international orders, logistics visibility, demand forecasting and executive analytics. I will explain the business problem, trace an order through the architecture, and demonstrate the working local system. Payments and carrier services use simulations in this prototype.
+
+SHOW / TRANSITION
+Introduce the topic without reading the full assigned title.
+
+IF ASKED
+Formal assigned title: Design and Implementation of an Enterprise Cross-Border Digital Commerce Platform for Marketplace Management, Intelligent Inventory Optimization, AI-Assisted Demand Forecasting, International Order Processing, Logistics Visibility, and Executive Commerce Analytics.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/requirements-traceability.md
+
+
+========================================
+
+2. Business problem
+Suggested time: 65 seconds
+
+SAY IN YOUR OWN WORDS
+Imagine a seller serving customers in different countries while storing products in several warehouses. Separate stock sheets and order records can disagree. Staff may promise the same stock twice or struggle to explain a delayed delivery. Demand uncertainty creates both excess stock and shortages. My prototype addresses these problems through linked records, controlled workflows and forecast evidence. I have not measured a commercial cost saving, so I will not claim one.
+
+SHOW / TRANSITION
+Connect each problem to a function you will demonstrate later.
+
+IF ASKED
+Who benefits? Operations staff need reliable stock and delivery records. Managers need clearly defined reports. Customers need orders the business can fulfil.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/project-report.md
+
+
+========================================
+
+3. Scope
+Suggested time: 45 seconds
+
+SAY IN YOUR OWN WORDS
+The five modules correspond to the assigned project. They work together through shared records rather than separate disconnected dashboards. I will explain the data flow first, then the order and stock rules, forecasting and verification. Technical monitoring supports these business modules. It is not a substitute for business analytics.
+
+SHOW / TRANSITION
+Point to each module once. Keep the roadmap brief.
+
+IF ASKED
+The local proof of concept supports the assessed workflows. Real payment and carrier integrations, split shipments, returns and production capacity require further work.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/requirements-traceability.md
+
+
+========================================
+
+4. System architecture
+Suggested time: 85 seconds
+
+SAY IN YOUR OWN WORDS
+React is the website the user interacts with. It sends requests to FastAPI, which checks identity, applies business rules and uses PostgreSQL to store records. Forecasting runs inside the backend. Redis supports request limiting. Prometheus collects API measurements and Grafana displays them. The database and API exchange data in both directions even though this overview emphasises request flow. Docker Compose runs six local services. A modular backend keeps this laptop demonstration easier to run. The trade-off is that forecasting shares resources with business requests.
+
+SHOW / TRANSITION
+Trace one request across the top row, then explain the monitoring branch.
+
+IF ASKED
+Why not microservices? Independent scaling can help a larger deployment, but it adds network, deployment and consistency complexity. I would separate a forecasting worker when measured workload justifies it.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docker-compose.yml
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/main.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/forecasting.py
+
+
+========================================
+
+5. Marketplace and access
+Suggested time: 60 seconds
+
+SAY IN YOUR OWN WORDS
+The Marketplace page identifies registered sellers and customers. Administration provides account and catalogue controls. Authentication identifies the user. Authorization determines what that user may do and which records they may access. The API enforces these rules, not only the interface. Customers should see their own order records. Merchants have ownership restrictions on products and reports. Staff receive operational permissions according to role.
+
+SHOW / TRANSITION
+If asked, show Marketplace and Administration. Do not spend demo time creating multiple accounts.
+
+IF ASKED
+A modified browser request must still pass backend role and ownership checks. Staff access remains broad in parts of this prototype and should become more narrowly scoped for production.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/access.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/administration.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/tests/test_completion.py
+
+
+========================================
+
+6. Inventory rules
+Suggested time: 75 seconds
+
+SAY IN YOUR OWN WORDS
+On hand is the recorded physical-stock balance. Reserved units are promised to existing orders. Available equals on hand minus reserved. Here, ordering two units changes reserved from zero to two and available from one hundred to ninety-eight. Delivery decreases both on hand and reserved by two. Available stays ninety-eight because the order already reserved those units. Cancellation before dispatch releases reserved units. A stock receipt increases on hand. These example numbers are not the live database totals.
+
+SHOW / TRANSITION
+During the demo record the actual starting balance for the allocated product and warehouse.
+
+IF ASKED
+Why deduct on hand at delivery? It simplifies this assessment workflow. A production design would distinguish warehouse stock from stock in transit.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/orders.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/user-guide.md
+
+
+========================================
+
+7. Order transaction
+Suggested time: 80 seconds
+
+SAY IN YOUR OWN WORDS
+The API validates the customer and request. It locks the customer before checking the repeat key, then locks candidate stock rows in a consistent order. It chooses one warehouse that can supply all items. Reservation, costs, order, simulated payment, shipment and audit data belong to one transaction. An error rolls back uncommitted changes. If the browser retries a request with the same key and matching details, the API returns the existing order. If the details differ, it rejects the conflict.
+
+SHOW / TRANSITION
+Explain idempotency using a lost network response rather than unexplained jargon.
+
+IF ASKED
+Two buyers requesting the last item must not both reserve it. Database locking and a check of available stock protect the transaction. PostgreSQL concurrency evidence covers tested duplicate and competing requests.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/orders.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/postgres-concurrency.json
+
+
+========================================
+
+8. Cross-border checkout
+Suggested time: 55 seconds
+
+SAY IN YOUR OWN WORDS
+International checkout needs a clear breakdown. This example shows goods of one hundred pounds, shipping of twelve, duty of five and tax of eight pounds forty, giving a total of one hundred twenty-five pounds forty. This is an illustrative charge breakdown, not a live quotation. The implementation uses fixed simulated exchange rates and charge rules and saves the rate used by each order. Reports convert amounts using that saved rate.
+
+SHOW / TRANSITION
+Show the actual order breakdown during the live demo. Explain merchandise value versus checkout value.
+
+IF ASKED
+Shipping in the implementation depends on weight before currency conversion. Production needs authoritative provider rates and tax rules, as well as fixed-precision monetary database fields.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/orders.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/administration.py
+
+
+========================================
+
+9. Logistics
+Suggested time: 60 seconds
+
+SAY IN YOUR OWN WORDS
+Each order links to a shipment and tracking reference. The normal progression is created, picked, in transit, customs clearance, out for delivery and delivered. Each event records its status, time, location and note. The backend validates transitions. In-transit stages can record delays and later recover. Delivery deducts stock and captures the simulated payment once. Dispatch prevents cancellation. There is no live carrier connection in this prototype.
+
+SHOW / TRANSITION
+Show event history, rather than only clicking through status buttons.
+
+IF ASKED
+A real carrier integration needs authenticated callbacks, durable provider-event IDs, deduplication and handling for events that arrive out of order.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/orders.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/demo-script.md
+
+
+========================================
+
+10. Forecast method
+Suggested time: 90 seconds
+
+SAY IN YOUR OWN WORDS
+History comes from a separate seeded or imported daily-sales dataset. Eligible series require at least thirty-five observations and recent history. Features include demand one, seven and fourteen days ago, a shifted seven-day mean, weekday and trend. Earlier dates train the model and later dates form the holdout. Predictions proceed recursively without inserting future actual values. A weekly baseline repeats the last training week. The lower mean absolute error chooses the model, which then refits on available history and forecasts tomorrow onward.
+
+SHOW / TRANSITION
+Explain that a new operational order changes stock but does not automatically retrain the model.
+
+IF ASKED
+The same holdout supports model selection, so it is not an independent final test. Real deployment requires representative data and rolling-origin evaluation. Random Forest is an algorithm. TensorFlow is a framework, not automatically a better model.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/forecasting.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/model-evaluation.md
+
+
+========================================
+
+11. Forecast evidence
+Suggested time: 80 seconds
+
+SAY IN YOUR OWN WORDS
+This chart uses the saved test evidence, not invented accuracy. For NT-NOISE-01 / DXB-01, the Random Forest MAE is 1.287 units per day compared with 1.5 for the weekly baseline. Training covers ninety-six days and the holdout covers twenty-four days, from 2026-08-14 to 2026-09-06. MAE means average absolute unit error. RMSE penalises larger errors. This run uses deterministic synthetic data. The current UI evaluation may differ because it has a different run date or dataset. The figures demonstrate evaluation, not proven real-business accuracy.
+
+SHOW / TRANSITION
+Point to the units and compare both bars. Do not describe MAE as a percentage accuracy.
+
+IF ASKED
+A lower MAE is useful but insufficient alone. Check each series, seasonality, stockout effects and longer-horizon errors. Forecast ranges are illustrative rather than calibrated confidence intervals.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/forecast-evaluation.json
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/model-evaluation.md
+
+
+========================================
+
+12. Replenishment
+Suggested time: 60 seconds
+
+SAY IN YOUR OWN WORDS
+This example shows forecast demand of sixty units, safety stock of fifteen and available stock of fifty. The recommendation is twenty-five units. The actual formula floors the result at zero. Safety stock uses forecast error and horizon as a heuristic. The UI labels stock at run time separately from current available stock, because new orders may change inventory after a forecast. Recommendations do not automatically create purchase orders.
+
+SHOW / TRANSITION
+Identify one real recommendation during the demonstration and explain its rationale.
+
+IF ASKED
+Supplier lead times, minimum purchase quantities, service-level calibration and procurement approval remain future improvements. Rerun forecasting after relevant stock or history changes.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/services/forecasting.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/frontend/app/components/Insights.tsx
+
+
+========================================
+
+13. Analytics and monitoring
+Suggested time: 60 seconds
+
+SAY IN YOUR OWN WORDS
+Business analytics shows orders, stock, financial totals and delivery completion. Merchandise value counts goods. Checkout value includes shipping, duty and tax. Technical monitoring measures API traffic, latency and errors. One order can cause several API calls, so request counts cannot be called order counts. P95 is approximately the response duration within which ninety-five percent of measured requests finish. It is not an average. Sparse graphs just after startup may need time to collect measurements.
+
+SHOW / TRANSITION
+During the demo show one business figure and one technical graph.
+
+IF ASKED
+If latency rises, first confirm the affected endpoints and time window, inspect errors and logs, then examine database work and resource pressure. A slow graph does not by itself identify the cause.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/administration.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/frontend/app/components/Insights.tsx
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/user-guide.md
+
+
+========================================
+
+14. Security and recovery
+Suggested time: 85 seconds
+
+SAY IN YOUR OWN WORDS
+Passwords use hashes and the API checks active users, roles and ownership. Transactions protect stock updates. Retry keys help when a response is lost. If the database is unavailable, the application cannot safely accept orders. I would check health and logs, restore service, inspect saved state and only then retry. Backup recovery has been tested into a separate database, preserving the live data. This local deployment uses HTTP, demo credentials and broad staff permissions in places. If Redis fails, the current rate limiter fails open. That preserves availability but temporarily weakens traffic protection.
+
+SHOW / TRANSITION
+Explain one failure scenario directly. Keep passwords, tokens and private data off shared source-code screens.
+
+IF ASKED
+Production would need TLS, MFA, managed secrets, tighter staff scopes, rate-limit fallback policy, independent security review and tested recovery objectives. Do not claim certification.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/main.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/backend/app/access.py
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/scripts/restore-backup-copy.ps1
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/security-and-standards.md
+
+
+========================================
+
+15. Verification
+Suggested time: 70 seconds
+
+SAY IN YOUR OWN WORDS
+The saved backend suite passed twenty tests on six September. Coverage is eighty-nine point nine one percent of application lines, not a probability of correctness. Most functional tests use isolated SQLite databases. Separate PostgreSQL concurrency checks verify the tested repeat-request, overselling and delivery scenarios. Forecast evidence covers nine synthetic series. Dated package and source scans exist, but the full container OS scan timed out. On nineteen September source-contract and TypeScript checks passed, while the final production rebuild hit a permission error and Docker was unavailable. I must rerun and check the final local build before the exam.
+
+SHOW / TRANSITION
+If questioned, open reports/verification/README.md and its supporting files. Update verbal status only after reproducing a successful new check.
+
+IF ASKED
+These checks do not prove five million transactions per day, complete browser coverage or real-data forecast accuracy. No production load or formal penetration test has established those claims.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/README.md
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/backend-tests.xml
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/coverage.xml
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/postgres-concurrency.json
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/completion-checklist.md
+
+
+========================================
+
+16. Responsible AI and limits
+Suggested time: 60 seconds
+
+SAY IN YOUR OWN WORDS
+I used AI assistance for coding, configuration, documentation, debugging and presentation preparation. I will describe exactly what I personally reviewed and tested, without claiming that every line or diagram was independently authored. My responsibility in this assessment is to understand the design, demonstrate its behaviour and defend its limits. External payment and carrier services use simulations. The forecasting evidence uses synthetic data. Production deployment requires stronger security, real integrations and measured capacity.
+
+SHOW / TRANSITION
+Before presenting, practise explaining every named component and reproduce the core demonstration yourself.
+
+IF ASKED
+If asked what you changed personally, give a specific truthful example. If you do not know an answer, state what you know and explain how you would investigate.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/AI_USAGE.md
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/completion-checklist.md
+
+
+========================================
+
+17. Live demonstration
+Suggested time: 5 minutes, separate from the slide talk
+
+SAY IN YOUR OWN WORDS
+Sir, I will now demonstrate one international order from creation to delivery. First I will record the product stock. I will create a two-unit order and show its order number, charges and allocated warehouse. Reserved stock should increase by two and available stock should decrease by two. At delivery, on hand and reserved should each fall by two. Then I will explain one forecast recommendation. A separate cancellation example will release a reservation. Finally I will distinguish business analytics from API monitoring.
+
+SHOW / TRANSITION
+Use Alt+Tab. Check the allocated warehouse rather than an unrelated balance. Rehearse the product and valid statuses. If forecasting is slow, identify and show a saved evaluation honestly. Refresh after a network error to inspect state before retrying. Never reset the database during the exam.
+
+IF ASKED
+If time is shortened, prioritise order creation, stock proof and delivery. Keep a labelled backup recording or screenshots ready, without representing them as live.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/demo-script.md
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/scripts/ExamLauncher.cs
+
+
+========================================
+
+18. Conclusion
+Suggested time: 35 seconds
+
+SAY IN YOUR OWN WORDS
+GlobalCommerce brings the key business records and workflows into one local system. The demonstration links an order to its stock reservation, simulated charges, delivery history and inventory update. Forecast comparisons support planning and monitoring helps investigate technical problems. The next stage is real integrations, representative data, stronger security and measured scaling. Thank you. I welcome questions about the design, evidence and limitations.
+
+SHOW / TRANSITION
+Stop here for the main presentation. The remaining slides support questions.
+
+IF ASKED
+Explain the business benefit without inventing percentages of savings, uptime or capacity.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/project-report.md
+
+
+========================================
+
+19. Design defence
+Suggested time: Q&A only
+
+SAY IN YOUR OWN WORDS
+Answer with a decision, its reason, supporting evidence and its limitation. These choices simplify a laptop-based assessment. They do not establish that the same design is sufficient at enterprise scale. Any redesign should preserve stock consistency and make failure handling explicit.
+
+SHOW / TRANSITION
+Use this slide if the examiner asks why you chose the architecture or how it would evolve.
+
+IF ASKED
+For a twenty-one-day supplier lead time, extend and evaluate the relevant forecast horizon and stock policy. For growth, measure bottlenecks before adding caches, workers or replicas.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/architecture.md
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/model-evaluation.md
+
+
+========================================
+
+20. Sources and preparation
+Suggested time: Q&A only
+
+SAY IN YOUR OWN WORDS
+The supplied guide allocates equal presentation weight to content mastery, organisation, presentation skills, visuals and responsible AI use. The sample exam provides useful evidence about question style and demonstration pacing, but it is not a guarantee of identical questions or marks. The examiner expects independent reasoning and may ask for a redesign.
+
+SHOW / TRANSITION
+Before the exam: complete the local build, test the launcher, rehearse the full workflow, verify all linked files, and prepare your repository according to college requirements. Nothing has been uploaded automatically.
+
+IF ASKED
+Sample exam observations use an auto-generated transcript and supplied screenshots. Transcript wording may contain errors. The result announcement is around 1:10:54.
+
+SOURCES
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/docs/requirements-traceability.md
+C:/Users/HP/Documents/Codex/2026-08-16/i/outputs/globalcommerce-enterprise-platform/reports/verification/README.md
+https://www.youtube.com/watch?v=tMiNZTVoy5c&t=434s
+https://www.youtube.com/watch?v=tMiNZTVoy5c&t=2436s
+https://www.youtube.com/watch?v=tMiNZTVoy5c&t=4254s

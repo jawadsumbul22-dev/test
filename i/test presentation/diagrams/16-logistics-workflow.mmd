@@ -1,0 +1,22 @@
+stateDiagram-v2
+    [*] --> created
+    created --> picked
+    created --> cancelled: Cancel order
+    picked --> cancelled: Cancel before dispatch
+    picked --> in_transit
+    in_transit --> customs_clearance
+    customs_clearance --> out_for_delivery
+    out_for_delivery --> delivered
+    in_transit --> delayed
+    customs_clearance --> delayed
+    out_for_delivery --> delayed
+    delayed --> in_transit
+    delayed --> customs_clearance
+    delayed --> out_for_delivery
+    delivered --> [*]
+    cancelled --> [*]
+    note right of cancelled
+      Order-level cancellation.
+      Shipment row retains prior state;
+      UI reports cancelled.
+    end note

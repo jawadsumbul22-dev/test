@@ -1,0 +1,1668 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/k3yl0zql",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Replace title and presenter within inherited styled runs."
+        },
+        {
+          "sourceElementId": "im/qh0jmhw7",
+          "shapeId": "4",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "im/ri9kvmxs",
+          "shapeId": "5",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "im/cj21o7ed",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "im/dkb2xcfy",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "im/6lgjadw3",
+          "shapeId": "8",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "10",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout12.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "23",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout12.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "24",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout12.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "25",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout12.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "problem and business value",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 2,
+      "narrativeRole": "scope and implementation boundary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 3,
+      "narrativeRole": "architecture diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/d0jax03i",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/3ah8rqlg",
+          "shapeId": "5",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/298ryl4v",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "im/p4bu58jm",
+          "shapeId": "20",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/o32dw321",
+          "shapeId": "21",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/n2tc3y1g",
+          "shapeId": "22",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/a5c3ql8z",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/cza94vmx",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/w7ulsvqp",
+          "shapeId": "17",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/ja54na9g",
+          "shapeId": "18",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/i9w3u58v",
+          "shapeId": "19",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 34,
+            "top": 185,
+            "width": 565,
+            "height": 310
+          },
+          "reason": "Native diagram replaces the removed source diagram inside its inherited media region. Short labels use Georgia and the source red/black palette."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 625,
+            "top": 195,
+            "width": 255,
+            "height": 135
+          },
+          "reason": "Concise diagram key replaces unsupported WMF asset in its original media region."
+        }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 3,
+      "narrativeRole": "stock relationship diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/d0jax03i",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/3ah8rqlg",
+          "shapeId": "5",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/298ryl4v",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "im/p4bu58jm",
+          "shapeId": "20",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/o32dw321",
+          "shapeId": "21",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/n2tc3y1g",
+          "shapeId": "22",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/a5c3ql8z",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/cza94vmx",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/w7ulsvqp",
+          "shapeId": "17",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/ja54na9g",
+          "shapeId": "18",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/i9w3u58v",
+          "shapeId": "19",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 34,
+            "top": 185,
+            "width": 565,
+            "height": 310
+          },
+          "reason": "Native diagram replaces the removed source diagram inside its inherited media region. Short labels use Georgia and the source red/black palette."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 625,
+            "top": 195,
+            "width": 255,
+            "height": 135
+          },
+          "reason": "Concise diagram key replaces unsupported WMF asset in its original media region."
+        }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 3,
+      "narrativeRole": "transaction sequence diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/d0jax03i",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/3ah8rqlg",
+          "shapeId": "5",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/298ryl4v",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "im/p4bu58jm",
+          "shapeId": "20",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/o32dw321",
+          "shapeId": "21",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/n2tc3y1g",
+          "shapeId": "22",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/a5c3ql8z",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/cza94vmx",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/w7ulsvqp",
+          "shapeId": "17",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/ja54na9g",
+          "shapeId": "18",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/i9w3u58v",
+          "shapeId": "19",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 34,
+            "top": 185,
+            "width": 565,
+            "height": 310
+          },
+          "reason": "Native diagram replaces the removed source diagram inside its inherited media region. Short labels use Georgia and the source red/black palette."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 625,
+            "top": 195,
+            "width": 255,
+            "height": 135
+          },
+          "reason": "Concise diagram key replaces unsupported WMF asset in its original media region."
+        }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 2,
+      "narrativeRole": "cross border pricing rules",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 2,
+      "narrativeRole": "shipment traceability",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 3,
+      "narrativeRole": "forecast pipeline diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/d0jax03i",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/3ah8rqlg",
+          "shapeId": "5",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/298ryl4v",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "im/p4bu58jm",
+          "shapeId": "20",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/o32dw321",
+          "shapeId": "21",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/n2tc3y1g",
+          "shapeId": "22",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/a5c3ql8z",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/cza94vmx",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/w7ulsvqp",
+          "shapeId": "17",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/ja54na9g",
+          "shapeId": "18",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/i9w3u58v",
+          "shapeId": "19",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 34,
+            "top": 185,
+            "width": 565,
+            "height": 310
+          },
+          "reason": "Native diagram replaces the removed source diagram inside its inherited media region. Short labels use Georgia and the source red/black palette."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 625,
+            "top": 195,
+            "width": 255,
+            "height": 135
+          },
+          "reason": "Concise diagram key replaces unsupported WMF asset in its original media region."
+        }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 3,
+      "narrativeRole": "replenishment relationship diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/d0jax03i",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/3ah8rqlg",
+          "shapeId": "5",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/298ryl4v",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "im/p4bu58jm",
+          "shapeId": "20",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/o32dw321",
+          "shapeId": "21",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/n2tc3y1g",
+          "shapeId": "22",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/a5c3ql8z",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/cza94vmx",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/w7ulsvqp",
+          "shapeId": "17",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/ja54na9g",
+          "shapeId": "18",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/i9w3u58v",
+          "shapeId": "19",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 34,
+            "top": 185,
+            "width": 565,
+            "height": 310
+          },
+          "reason": "Native diagram replaces the removed source diagram inside its inherited media region. Short labels use Georgia and the source red/black palette."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 625,
+            "top": 195,
+            "width": 255,
+            "height": 135
+          },
+          "reason": "Concise diagram key replaces unsupported WMF asset in its original media region."
+        }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 3,
+      "narrativeRole": "monitoring dataflow diagram",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/d0jax03i",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/3ah8rqlg",
+          "shapeId": "5",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/298ryl4v",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "im/p4bu58jm",
+          "shapeId": "20",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/o32dw321",
+          "shapeId": "21",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "im/n2tc3y1g",
+          "shapeId": "22",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/a5c3ql8z",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "sourceElementId": "sh/cza94vmx",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Rewrite heading, intro, takeaway and slide number in inherited shapes."
+        },
+        {
+          "sourceElementId": "sh/w7ulsvqp",
+          "shapeId": "17",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/ja54na9g",
+          "shapeId": "18",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/i9w3u58v",
+          "shapeId": "19",
+          "action": "delete",
+          "reason": "Remove original GRC images and stray overlays; use explicit diagram zone."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 34,
+            "top": 185,
+            "width": 565,
+            "height": 310
+          },
+          "reason": "Native diagram replaces the removed source diagram inside its inherited media region. Short labels use Georgia and the source red/black palette."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 625,
+            "top": 195,
+            "width": 255,
+            "height": 135
+          },
+          "reason": "Concise diagram key replaces unsupported WMF asset in its original media region."
+        }
+      ]
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 4,
+      "narrativeRole": "genuine application screenshot",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/1cj2d8b6",
+          "shapeId": "2",
+          "action": "rewrite",
+          "reason": "Replace caption, title and footer text. Move caption right to separate it from the screenshot frame."
+        },
+        {
+          "sourceElementId": "sh/0ba143al",
+          "shapeId": "3",
+          "action": "rewrite",
+          "reason": "Replace caption, title and footer text. Move caption right to separate it from the screenshot frame."
+        },
+        {
+          "sourceElementId": "sh/ql8jytsj",
+          "shapeId": "5",
+          "action": "rewrite",
+          "reason": "Replace caption, title and footer text. Move caption right to separate it from the screenshot frame."
+        },
+        {
+          "sourceElementId": "im/w7u9kj25",
+          "shapeId": "26",
+          "action": "replace",
+          "reason": "Replace source diagram image with genuine Inventory screenshot, contain fit in inherited frame."
+        },
+        {
+          "sourceElementId": "sh/rm1k7yt4",
+          "shapeId": "4",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/sna103ap",
+          "shapeId": "7",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/3ihk3et8",
+          "shapeId": "8",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/ih8ju9sn",
+          "shapeId": "9",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/kbm987y5",
+          "shapeId": "10",
+          "action": "rewrite-and-reposition",
+          "reason": "Replace caption, title and footer text. Move caption right to separate it from the screenshot frame."
+        },
+        {
+          "sourceElementId": "sh/5cva1cfq",
+          "shapeId": "11",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/jadsz2xk",
+          "shapeId": "13",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/w72947yt",
+          "shapeId": "14",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/x8vaxsfe",
+          "shapeId": "15",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/a5kr2xg3",
+          "shapeId": "16",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/v6tsv2xo",
+          "shapeId": "17",
+          "action": "delete",
+          "reason": "Remove obsolete year labels, blank overlays and off-slide duplicate page marker."
+        },
+        {
+          "sourceElementId": "sh/1wbapc7q",
+          "shapeId": "24",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/gv29g7q5",
+          "shapeId": "25",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        }
+      ]
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 2,
+      "narrativeRole": "implemented security controls and boundaries",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 2,
+      "narrativeRole": "test evidence and evaluation limits",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 2,
+      "narrativeRole": "end to end demonstration sequence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 2,
+      "narrativeRole": "critical evaluation and prioritized improvements",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 2,
+      "narrativeRole": "closing thesis and invitation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 2,
+      "narrativeRole": "viva prompts and concise technical answers",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 2,
+      "narrativeRole": "evidence provenance and transparent assistance",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "sourceElementId": "sh/ozy1ofad",
+          "shapeId": "3",
+          "action": "rewrite-and-reposition",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/b29kza94",
+          "shapeId": "4",
+          "action": "rewrite",
+          "reason": "Rewrite title and four source bullets; widen title only to prevent wrapping. Keep exact font sizes."
+        },
+        {
+          "sourceElementId": "sh/x4r21kru",
+          "shapeId": "6",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "sourceElementId": "sh/w3i1sfa9",
+          "shapeId": "7",
+          "action": "keep",
+          "reason": "Preserve template styling and composition."
+        },
+        {
+          "shapeId": "2",
+          "scope": "layout",
+          "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "2",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "shapeId": "3",
+          "scope": "master",
+          "layoutId": "/ppt/slideMasters/slideMaster1.xml",
+          "action": "fill-placeholder",
+          "reason": "Fill inherited prompt with authored project metadata; do not alter hierarchy or styling."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 744,
+            "top": 500.5,
+            "width": 216,
+            "height": 28.83
+          },
+          "reason": "Consistent page numbering using the source slide 3 footer typography and position; source slide 2 lacks a slide-level page field."
+        }
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    {
+      "sourceSlide": 5,
+      "reason": "Dense GRC wheel is unrelated to commerce."
+    },
+    {
+      "sourceSlide": 6,
+      "reason": "Dense GRC roadmap is unrelated to commerce."
+    },
+    {
+      "sourceSlide": 7,
+      "reason": "Duplicate dense roadmap."
+    },
+    {
+      "sourceSlide": 8,
+      "reason": "Use a content-based conclusion instead of repeating the cover illustration."
+    }
+  ]
+}

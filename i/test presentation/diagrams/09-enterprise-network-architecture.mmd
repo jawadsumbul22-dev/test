@@ -1,0 +1,17 @@
+flowchart TB
+    subgraph Laptop[Implemented laptop environment - local HTTP]
+      Browser[Browser on this computer] --> Host[127.0.0.1 published ports]
+      Host --> Frontend[Frontend 3000]
+      Host --> API[API 8000]
+      Host --> Monitoring[Grafana 3001 and Prometheus 9090]
+      subgraph Bridge[One Docker Compose bridge network]
+        API --> Postgres[PostgreSQL 5432]
+        API --> Redis[Redis 6379]
+        Monitoring --> API
+      end
+    end
+    subgraph Future[Future production design - not implemented]
+      Internet[Internet] --> TLS[TLS reverse proxy and WAF]
+      TLS --> Private[Private application tier]
+      Private --> Data[Restricted data subnet and managed backups]
+    end

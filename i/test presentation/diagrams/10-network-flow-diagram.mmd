@@ -1,0 +1,17 @@
+sequenceDiagram
+    participant B as Browser
+    participant A as FastAPI
+    participant R as Redis
+    participant D as PostgreSQL
+    participant P as Prometheus
+    participant G as Grafana
+    B->>A: HTTP request with JWT
+    A->>R: Rate-limit counter
+    A->>A: Validate identity and authorization
+    A->>D: Read or atomic transaction
+    D-->>A: Result
+    A-->>B: JSON with request ID and security headers
+    P->>A: Scrape metrics
+    A-->>P: Counts and duration buckets
+    G->>P: Query time series
+    P-->>G: Chart data

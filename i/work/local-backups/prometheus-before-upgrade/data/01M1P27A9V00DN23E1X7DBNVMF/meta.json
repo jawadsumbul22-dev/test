@@ -1,0 +1,17 @@
+{
+	"ulid": "01M1P27A9V00DN23E1X7DBNVMF",
+	"minTime": 1788501603576,
+	"maxTime": 1788508800000,
+	"stats": {
+		"numSamples": 431460,
+		"numSeries": 721,
+		"numChunks": 3528
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01M1P27A9V00DN23E1X7DBNVMF"
+		]
+	},
+	"version": 1
+}

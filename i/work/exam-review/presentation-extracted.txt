@@ -1,0 +1,129 @@
+===== SLIDE 1 | Cover Page 1 =====
+[Text Placeholder 2] Cyber Security, Governance, Risk and Conformance
+
+Customer Centric
+Sales Focused
+Business Driven
+
+Presenters: 
+Khalid Bin Waleed
+Diploma in AIOPS
+EduQual Level 6
+
+===== SLIDE 2 | Blank =====
+[TextBox 2] Table of Contents
+[TextBox 3] Goal statement  
+Additional Benefits = increased Operations Maturity
+Value of the Unified Integrated Management System framework
+Operating as ONE	
+
+
+
+
+===== SLIDE 3 | Blank =====
+[Slide Number Placeholder 2] 3
+[Title 2] Goal Statement
+[TextBox 3] Strengthening Acme Telco competitive position and increasing revenue with the existing client base and new customers enabled by meeting compliance requirements
+
+[Title 2]   1
+[TextBox 1] “The future belongs to those who prepare for it today”
+
+===== SLIDE 4 | Blank =====
+[Footer Placeholder 1] Alignment, Accountability, Urgency
+[Slide Number Placeholder 2] 4
+[Title 2]   Additional Benefits = increased Operations Maturity
+[TextBox 3] 2025
+[TextBox 6] 2026
+[TextBox 7] 2027
+[TextBox 8] 2024
+[TextBox 9] -From commodity  to as-a-Service
+XaaS
+[Title 2]   2
+
+===== SLIDE 5 | Content: One =====
+[Title 1] Value of the Unified Integrated Management System framework	
+[Footer Placeholder 3] 3
+[TextBox 78] Integrated compliance framework
+
+===== SLIDE 6 | Content: One =====
+[Slide Number Placeholder 4] 6
+[Shape 315] The GRC roadmap development will be collaborative …
+[Shape 298] Development of Governance Roadmap
+[Title 8] Operating as ONE
+[Shape 298] UIMS Risk & Controls Assessment and Gaps Analysis
+[Shape 298] UIMS Technology Needs Assessment and Deployment
+[Shape 298] UIMS Continuous Controls Monitoring Program Development
+[Shape 298] Service Organization Controls Audit
+[Shape 302] Identify the certification /compliance frameworks to be in scope.
+Identify services and related systems to be included in the UIMS.
+Develop the communications and awareness strategy for the UIMS program.
+
+[Shape 317] PwC                                	      Acme Telco
+[Shape 302] Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.
+Discuss and agree with the EBU team on the services and related systems to be included in the UIMS.
+Support the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team.
+[Shape 302] Identify the current processes and controls that would support the UIMS.
+
+[Shape 302] Implement a GRC solution to support the UIMS.
+Implement  automation and analytics tool.
+[Shape 302] Implement UIMS Continuous Controls Monitoring program.
+Develop program design for sustainable integrated third party audit program.
+Update the communications and awareness strategy for the UIMS program.
+[Shape 302] Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.
+Select the Assurance Framework- Trust Services principles and criteria to be used.
+[Shape 302] Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.
+Document “as-is” existing policies and procedures aligned to the UIMS.
+Identify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements.
+[Shape 302] Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.
+Provide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis.
+[Shape 302] Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.
+Support the updating of the communications and training strategy.
+[Shape 302] Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.
+Perform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.
+
+
+[Left-Right Arrow 1] RACI Definition and Ownership
+[Title 2] 4
+
+===== SLIDE 7 | Content: One =====
+[Slide Number Placeholder 4] 7
+[Shape 315] The GRC roadmap development will be collaborative …
+[Shape 298] Development of Governance Roadmap
+[Title 8] Operating as ONE
+[Shape 298] UIMS Risk & Controls Assessment and Gaps Analysis
+[Shape 298] UIMS Technology Needs Assessment and Deployment
+[Shape 298] UIMS Continuous Controls Monitoring Program Development
+[Shape 298] Service Organization Controls Audit
+[Shape 302] Identify the certification /compliance frameworks to be in scope.
+Identify services and related systems to be included in the UIMS.
+Develop the communications and awareness strategy for the UIMS program.
+
+[Shape 302] Provide advice on other certification and compliance frameworks used in industry applicable for the UIMS.
+Discuss and agree with the EBU team on the services and related systems to be included in the UIMS.
+Support the development of the overall communications and awareness strategy to be developed and rolled out by the EBU team.
+[Shape 302] Identify the current processes and controls that would support the UIMS.
+
+[Shape 302] Implement a GRC solution to support the UIMS.
+Implement  automation and analytics tool.
+[Shape 302] Implement UIMS Continuous Controls Monitoring program.
+Develop program design for sustainable integrated third party audit program.
+Update the communications and awareness strategy for the UIMS program.
+[Shape 302] Specify the controls from the UIMS to support the Managed Services/COE, and Wireless/Wireline Services.
+Select the Assurance Framework- Trust Services principles and criteria to be used.
+[Shape 302] Perform detailed process walkthroughs in order to understand the current state of processes and controls that would support the UIMS.
+Document “as-is” existing policies and procedures aligned to the UIMS.
+Identify risks and control gaps in meeting the UIMS requirements and advise on remediation plans to prepare for readiness against compliance and audit requirements.
+[Shape 302] Provide support on requirements analysis for a GRC solution in considerations for UIMS drivers.
+Provide advice on requirements analysis for automation and analytics tool (machine learning capabilities) to be deployed in EBU contract analysis.
+[Shape 302] Provide support and advice on the organization design, process, technology solutions development to roll out a sustainable UIMS Continuous Controls Monitoring program.
+Support the updating of the communications and training strategy.
+[Shape 302] Perform SOC 2 audit on the controls supporting Acme’ Managed Services/ COE  and wireless/ wireline services provided to Acme’ customers.
+Perform SOC 2 integrated (multi customer) audit on the security and availability controls supporting Acme’ Wireless/Wireline Services provided to Acme’ customers.
+
+
+[Left-Right Arrow 1] RACI Definition and Ownership
+[Title 2] 4
+[Shape 317] PwC                                	      Acme Telco
+
+===== SLIDE 8 | Cover Page 1 =====
+[Text Placeholder 2] Thank you!

@@ -1,0 +1,9 @@
+import fs from "node:fs/promises";
+import {slides,project} from "./final-content.mjs";
+const escape=s=>s.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll('"',"&quot;");
+const names=(await fs.readdir(project+"/diagrams")).filter(x=>x.endsWith(".svg")).sort();
+if(names.length!==18)throw new Error("Expected 18 rendered diagrams");
+await fs.writeFile(project+"/diagrams/index.html", '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>GlobalCommerce diagrams</title><style>body{font:17px/1.6 system-ui;margin:40px auto;max-width:1250px;padding:0 24px;color:#203044;background:#f4f7fa}a{color:#164d67}section{background:white;border-radius:18px;padding:26px;margin:24px 0}img{max-width:100%;height:auto}h1{font-size:38px}h2{font-size:22px}</style><h1>GlobalCommerce engineering diagrams</h1><p>Jawad Ahmad · EduQual Level 6 · Local assessment release. Open an SVG to zoom; edit the matching Mermaid source. Production-only components are labelled.</p><nav>'+names.map(n=>'<a href="#'+n+'">'+escape(n.replace(".svg","").replaceAll("-"," "))+'</a><br>').join("")+'</nav>'+names.map(n=>'<section id="'+n+'"><h2>'+escape(n.replace(".svg","").replaceAll("-"," "))+'</h2><p><a href="'+n+'">Open full-size diagram</a> · <a href="'+n.replace(".svg",".mmd")+'">Editable source</a></p><img src="'+n+'" alt="'+escape(n)+'"></section>').join("")+'</html>');
+const speech="# Presentation speaking notes\n\nUse the final PowerPoint. Slides 1–17 are the main talk; 18–19 are viva appendices. Aim for 15–20 minutes plus a 5–10 minute live demonstration. Adapt every first-person claim honestly.\n\n"+slides.map((s,i)=>"## "+(i+1)+". "+s.title+"\n\n"+s.say+"\n\nShow: "+s.show+"\n\nIf asked: "+s.ask).join("\n\n");
+await fs.writeFile(project+"/docs/presentation-outline.md",speech);
+console.log("18-diagram offline index and 19-slide speaking notes written.");

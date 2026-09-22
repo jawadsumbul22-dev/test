@@ -1,0 +1,11 @@
+flowchart TB
+    Receipt[Receive stock with unique reference] --> Transaction[Database transaction]
+    Order[Reserve order units] --> Transaction
+    Cancel[Release pre-dispatch reservation] --> Transaction
+    Delivered[Deduct on hand and reserved at delivery] --> Transaction
+    Count[Audited stock count adjustment] --> Transaction
+    Transaction --> Balances[(Product and warehouse balances)]
+    Transaction --> Ledger[(Movement ledger)]
+    Balances --> Available[Available equals on hand minus reserved]
+    Available --> Reports[Inventory reports and current dashboard]
+    Available --> Snapshot[Stock snapshot when forecast runs]

@@ -1,0 +1,169 @@
+===== PAGE 1 =====
+Examination Readiness & Presentation
+Compliance Instructions
+Applicable EduQual Qualifications: EduQual Level 3 to 6 Diploma Qualifications
+Document Owner: Academic Operations Center
+Center Name: Al Nafi International College
+Dated: 9th January, 2026
+1. Purpose and Regulatory Alignment
+These instructions establish the minimum mandatory preparation standards for students
+appearing in EduQual Level 3, 4, 5, and 6 assessments.
+The objective is to ensure that:
+● Learning outcomes are fully met and demonstrable
+● Assessments align with EduQual and Ofqual expectations
+● Submissions reflect industry readiness and employer-aligned competence
+● Academic integrity is preserved while responsibly leveraging AI as a tool
+This framework reflects:
+● EduQual assessment principles
+● Ofqual conditions of recognition
+● EduQual & RQF level descriptors
+● Current global industry practices
+2. Mandatory Preparation Requirements (Non-Negotiable)
+Every student MUST ensure the following are fully prepared for each selected topic, where
+applicable.
+2.1 Conceptual and Theoretical Readiness
+Students must demonstrate:
+● Clear understanding of core concepts, terminology, and frameworks
+● Ability to explain why a solution exists, not just what it is
+
+===== PAGE 2 =====
+● Alignment of explanations with the RQF level depth (increasing complexity from Level 3
+to Level 6)
+Superficial explanations or memorized definitions are insufficient.
+2.2 Design & Architecture Artifacts (Mandatory Where Applicable)
+For every topic, students MUST be able to independently explain and defend the following
+artifacts:
+● System Architecture Diagrams
+● Network Diagrams
+● Data Flow Diagrams (DFDs)
+● Process Flow / Workflow Diagrams
+● Security Architecture Diagrams
+● Cloud / Hybrid / On-Prem Architecture Designs
+Requirements:
+● Diagrams must be logically consistent
+● Components must be correctly placed and justified
+● Data movement, trust boundaries, and dependencies must be clearly explained
+● The student must be able to modify or redesign the architecture live during Q&A
+Pre-made diagrams without understanding will be penalized.
+2.3 Implementation & Demonstration Capability
+Students must be able to demonstrate:
+● How the solution works end-to-end
+● How components interact in real scenarios
+● How the design would be implemented in practice
+This includes:
+● Configuration logic
+● Deployment flow
+● Operational behavior
+● Failure and recovery scenarios
+● Scalability and security considerations
+Live demos, walkthroughs, or simulated demonstrations may be required depending on the
+topic and level.
+
+===== PAGE 3 =====
+2.4 Policies, Procedures, and Governance (Where Applicable)
+Students must prepare and be able to justify:
+● Policies (what must be followed and why)
+● Procedures (how things are executed step-by-step)
+● Standards and controls aligned with industry frameworks
+● Compliance, risk, and governance considerations
+At higher RQF levels (5–6), students must show:
+● Decision-making rationale
+● Trade-off analysis
+● Alignment with regulatory and organizational objectives
+3. Use of Artificial Intelligence (AI): Allowed and Restricted Areas
+3.1 Permitted Use of AI (Explicitly Allowed)
+AI may be used for:
+● Writing code
+● Generating scripts
+● Producing configuration samples
+● Assisting with documentation drafts
+● Demonstrating how a solution operates
+This reflects modern industry reality where AI-assisted development is standard practice.
+3.2 Restricted Use of AI (Strictly Evaluated)
+AI MUST NOT replace:
+● Student understanding
+● Student reasoning
+● Student design thinking
+● Student explanation
+● Student problem-solving during Q&A
+All of the following are individually evaluated:
+● Creativity
+
+===== PAGE 4 =====
+● Logical flow
+● Technical justification
+● Real-world reasoning
+● Ability to defend decisions verbally
+AI usage is assessed as a tool, not as a substitute for competence.
+4. Evaluation Framework Used During the Exam
+All presentations and interviews are evaluated strictly using the following structure.
+4.1 Presentation Evaluation (50% | Total Marks: 25)
+Final Evaluation Report Structure
+Presentation Title:
+Presenter:
+Diploma:
+1. Does the Presentation Meet the Examination Requirements?
+● Observations from the Presentation
+● Topics Covered
+● Missing Key Requirements
+● Conclusion
+2. Is AI Likely Used in the Creation of This Presentation?
+● Analysis
+● Possible AI Assistance
+● Human-Created Aspects
+● Conclusion
+3. Areas for Improvement
+(A) Technical Depth & Exam Alignment
+(B) Visuals & Presentation Quality
+
+===== PAGE 5 =====
+Scoring Criteria
+Criteria Weightage Evaluation Focus
+Content Mastery 20% Depth, accuracy, and clarity
+Organization 20% Logical flow and structure
+Presentation Skills 20% Confidence, articulation, defense
+Use of Visuals 20% Diagrams, clarity, relevance
+Usage of AI Tools 20% Responsible, transparent, appropriate
+Total: 25 Marks
+4.2 Q&A / Interview Evaluation (50% | Total Marks: 25)
+Students must demonstrate:
+● Real-time reasoning
+● Design defense
+● Scenario handling
+● Employer-style questioning readiness
+A minimum of 10 structured questions may be asked, covering:
+● Architecture decisions
+● Failure scenarios
+● Security implications
+● Performance trade-offs
+● Real-world deployment challenges
+5. Performance Expectations by RQF Level
+● RQF Level 3: Foundational understanding and basic demonstrations
+● RQF Level 4: Applied knowledge with structured designs
+● RQF Level 5: Analytical thinking, optimization, and justification
+● RQF Level 6: Strategic architecture, risk-based decisions, and enterprise alignment
+Expectations increase significantly with each level.
+
+===== PAGE 6 =====
+6. Final Verdict and Recommendations
+Final outcomes include:
+● Strengths
+● Areas needing attention
+● Clear recommendation
+● Final score out of 50
+● Performance level classification
+Passing requires both technical competence and demonstrable understanding.
+7. Institutional Position
+Al Nafi International College evaluates:
+● Skills, not templates
+● Understanding, not memorization
+● Readiness for employment, not academic theory alone
+Students are expected to perform as entry-level to mid-level professionals, depending on the
+RQF level.
+8. Closing Statement
+This instruction set exists to:
+● Protect qualification integrity
+● Align education with real-world demand
+● Ensure students graduate with defensible, employable skills
+Students are encouraged to prepare thoroughly, think critically, and present confidently.
+The assessment process is rigorous by design and fair by principle.

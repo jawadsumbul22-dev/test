@@ -1,0 +1,11 @@
+flowchart TB
+    Setup[Create warehouse and unit capacity] --> Warehouse[(Warehouse)]
+    Receipt[Receive stock] --> Lock[Lock warehouse then inventory balance]
+    Lock --> Capacity{Within capacity and valid quantity?}
+    Capacity -->|Yes| Store[Commit receipt and ledger entry]
+    Capacity -->|No| Reject[Reject without partial update]
+    Order[Multi-item order request] --> Select[Find one warehouse with enough of every item]
+    Select --> Reserve[Lock balances in deterministic order and reserve]
+    Warehouse --> Capacity
+    Warehouse --> Select
+    Store --> Utilization[Utilization equals recorded on hand divided by unit capacity]

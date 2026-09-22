@@ -1,0 +1,1290 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x8f69ofe",
+    "id": "x8f69ofe",
+    "slide": 6,
+    "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+    "layoutName": "Blank",
+    "layoutType": "blank",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 540
+    }
+  },
+  "theme": {
+    "colorSchemeName": "PwC Red",
+    "colors": {
+      "accent1": "#E0301E",
+      "accent2": "#A32020",
+      "accent3": "#DB536A",
+      "accent4": "#602320",
+      "accent5": "#FFB600",
+      "accent6": "#DC6900",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#E0301E",
+      "lt2": "#FFFFFF",
+      "hlink": "#E0301E",
+      "folHlink": "#E0301E"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout7.xml",
+      "name": "Blank",
+      "type": "blank",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/2",
+          "id": "2",
+          "name": "Date Placeholder 1",
+          "bbox": [
+            66,
+            500.5,
+            216,
+            28.75
+          ],
+          "geometry": "rect",
+          "text": "Enterprise commerce project",
+          "textPreview": "Enterprise commerce project",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Enterprise commerce project",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Enterprise commerce project"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            66,
+            28.75,
+            828,
+            104.38
+          ],
+          "geometry": "rect",
+          "text": "GlobalCommerce",
+          "textPreview": "GlobalCommerce",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "GlobalCommerce",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "GlobalCommerce"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            66,
+            143.75,
+            828,
+            342.63
+          ],
+          "geometry": "rect",
+          "text": "Enterprise commerce project",
+          "textPreview": "Enterprise commerce project",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Enterprise commerce project",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Enterprise commerce project"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zi98nu94",
+      "id": "3",
+      "name": "Slide Number Placeholder 2",
+      "bbox": [
+        744,
+        500.5,
+        216,
+        28.83
+      ],
+      "geometry": "rect",
+      "text": "6",
+      "textPreview": "6",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6",
+          "runs": [
+            {
+              "index": 1,
+              "text": "6"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98rqt4r6",
+      "id": "5",
+      "name": "Title 2",
+      "bbox": [
+        33.56,
+        40.32,
+        780,
+        40.99
+      ],
+      "geometry": "rect",
+      "text": "One order, one workflow",
+      "textPreview": "One order, one workflow",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "Calibri Light",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "One order, one workflow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "One order, one workflow",
+          "runs": [
+            {
+              "index": 1,
+              "text": "One order, one workflow",
+              "fontSize": 26.67,
+              "typeface": "Georgia",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ipkzal",
+      "id": "4",
+      "name": "TextBox 3",
+      "bbox": [
+        24.02,
+        82.84,
+        755.75,
+        98.55
+      ],
+      "geometry": "rect",
+      "text": "Business records are created together; failures should not leave partial orders.\n",
+      "textPreview": "Business records are created together; failures should not leave partial orders. |",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Business records are created together; failures should not leave partial orders."
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Business records are created together; failures should not leave partial orders.",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Business records are created together; failures should not leave partial orders.",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "tx1"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhg7epsj",
+      "id": "2",
+      "name": "TextBox 1",
+      "bbox": [
+        625.64,
+        350.41,
+        255.55,
+        52.8
+      ],
+      "geometry": "rect",
+      "text": "A repeat key returns\nthe existing order.",
+      "textPreview": "A repeat key returns | the existing order.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A repeat key returns"
+          },
+          {
+            "index": 2,
+            "text": "the existing order."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A repeat key returns\nthe existing order.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "A repeat key returns\nthe existing order.",
+              "typeface": "Georgia",
+              "italic": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D11414",
+      "lineColor": "#D1141E",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i54bylor",
+      "id": "17",
+      "name": "Straight Connector 16",
+      "bbox": [
+        37.82,
+        42.38,
+        0.04,
+        17.11
+      ],
+      "geometry": "line",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twfux0ne",
+      "id": "18",
+      "name": "Straight Connector 17",
+      "bbox": [
+        37.15,
+        42.54,
+        729.5,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CF1316",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svmt4v6t",
+      "id": "19",
+      "name": "Flow arrow",
+      "bbox": [
+        207,
+        242,
+        24,
+        18
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#C00000",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbe5g3ih",
+      "id": "20",
+      "name": "Flow arrow",
+      "bbox": [
+        407,
+        242,
+        24,
+        18
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#C00000",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcnm98zm",
+      "id": "21",
+      "name": "Flow arrow",
+      "bbox": [
+        508,
+        298,
+        18,
+        77
+      ],
+      "geometry": "downArrow",
+      "fillColor": "#C00000",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpwnet0b",
+      "id": "22",
+      "name": "Flow arrow",
+      "bbox": [
+        207,
+        395,
+        24,
+        18
+      ],
+      "geometry": "leftArrow",
+      "fillColor": "#C00000",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq547yhw",
+      "id": "23",
+      "name": "Flow arrow",
+      "bbox": [
+        407,
+        395,
+        24,
+        18
+      ],
+      "geometry": "leftArrow",
+      "fillColor": "#C00000",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fy5k3id",
+      "id": "24",
+      "name": "Commerce diagram: 1. Check request and repeat key",
+      "bbox": [
+        43,
+        216,
+        164,
+        82
+      ],
+      "geometry": "rect",
+      "text": "1. Check request\nand repeat key",
+      "textPreview": "1. Check request | and repeat key",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Check request"
+          },
+          {
+            "index": 2,
+            "text": "and repeat key"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Check request",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Check request",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "and repeat key",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "and repeat key",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF9F7",
+      "lineColor": "#C00000",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lg76d8zy",
+      "id": "25",
+      "name": "Commerce diagram: 2. Lock stock and reserve",
+      "bbox": [
+        231,
+        216,
+        176,
+        82
+      ],
+      "geometry": "rect",
+      "text": "2. Lock stock\nand reserve",
+      "textPreview": "2. Lock stock | and reserve",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Lock stock"
+          },
+          {
+            "index": 2,
+            "text": "and reserve"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Lock stock",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Lock stock",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "and reserve",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "and reserve",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF9F7",
+      "lineColor": "#C00000",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydgnit07",
+      "id": "26",
+      "name": "Commerce diagram: 3. Calculate simulated costs",
+      "bbox": [
+        431,
+        216,
+        161,
+        82
+      ],
+      "geometry": "rect",
+      "text": "3. Calculate\nsimulated costs",
+      "textPreview": "3. Calculate | simulated costs",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Calculate"
+          },
+          {
+            "index": 2,
+            "text": "simulated costs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Calculate",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Calculate",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "simulated costs",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "simulated costs",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF9F7",
+      "lineColor": "#C00000",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zep4byhs",
+      "id": "27",
+      "name": "Commerce diagram: 4. Order + payment + shipment",
+      "bbox": [
+        431,
+        375,
+        161,
+        99
+      ],
+      "geometry": "rect",
+      "text": "4. Order +\npayment +\nshipment",
+      "textPreview": "4. Order + | payment + | shipment",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4. Order +"
+          },
+          {
+            "index": 2,
+            "text": "payment +"
+          },
+          {
+            "index": 3,
+            "text": "shipment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4. Order +",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Order +",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "payment +",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "payment +",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "shipment",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "shipment",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF9F7",
+      "lineColor": "#C00000",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gju58ji9",
+      "id": "28",
+      "name": "Commerce diagram: 6. Return order ID",
+      "bbox": [
+        43,
+        375,
+        164,
+        82
+      ],
+      "geometry": "rect",
+      "text": "6. Return\norder ID",
+      "textPreview": "6. Return | order ID",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6. Return"
+          },
+          {
+            "index": 2,
+            "text": "order ID"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6. Return",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6. Return",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "order ID",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "order ID",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF9F7",
+      "lineColor": "#C00000",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k3mhozu",
+      "id": "29",
+      "name": "Commerce diagram: 5. Commit all records",
+      "bbox": [
+        231,
+        375,
+        176,
+        82
+      ],
+      "geometry": "rect",
+      "text": "5. Commit\nall records",
+      "textPreview": "5. Commit | all records",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5. Commit"
+          },
+          {
+            "index": 2,
+            "text": "all records"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5. Commit",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Commit",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "all records",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "all records",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF9F7",
+      "lineColor": "#C00000",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jet8nm1c",
+      "id": "30",
+      "name": "Commerce diagram: Successful creation commits together.  An error should roll back changes.",
+      "bbox": [
+        625,
+        194,
+        255,
+        135
+      ],
+      "geometry": "rect",
+      "text": "Successful creation\ncommits together.\n\nAn error should\nroll back changes.",
+      "textPreview": "Successful creation | commits together. |  | An error should | roll back changes.",
+      "resolvedFontSize": 18.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18.67,
+        "typeface": "Georgia",
+        "color": "#202020",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 6,
+          "bottom": 3,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Successful creation"
+          },
+          {
+            "index": 2,
+            "text": "commits together."
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "An error should"
+          },
+          {
+            "index": 5,
+            "text": "roll back changes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Successful creation",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Successful creation",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "commits together.",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "commits together.",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "An error should",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "An error should",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "roll back changes.",
+          "resolvedTextStyle": {
+            "fontSize": 18.67,
+            "typeface": "Georgia",
+            "color": "#202020",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "roll back changes.",
+              "fontSize": 18.67,
+              "typeface": "Georgia",
+              "color": "#202020",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

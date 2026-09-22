@@ -1,0 +1,102 @@
+2026-09-19T01:51:48 Before exam day: click Prepare / rebuild once and rehearse.
+On exam day: click Start project. No commands needed.
+Docker Desktop must be installed. Keep the original project folder in place.
+Login: admin@globalcommerce.local / Admin123!
+Nothing is uploaded. Closing this window does not stop the project.
+2026-09-19T01:51:50 Starting Docker Desktop. Waiting for its Linux engine...
+2026-09-19T01:52:09 Starting services...
+2026-09-19T01:52:12  Container globalcommerce-redis-1 Running 
+2026-09-19T01:52:12  Container globalcommerce-api-1 Running 
+2026-09-19T01:52:12  Container globalcommerce-frontend-1 Running 
+2026-09-19T01:52:12  Container globalcommerce-prometheus-1 Running 
+2026-09-19T01:52:12  Container globalcommerce-grafana-1 Running 
+2026-09-19T01:52:12  Container globalcommerce-postgres-1 Running 
+2026-09-19T01:52:12  Container globalcommerce-postgres-1 Waiting 
+2026-09-19T01:52:12  Container globalcommerce-redis-1 Waiting 
+2026-09-19T01:52:13  Container globalcommerce-redis-1 Healthy 
+2026-09-19T01:52:17  Container globalcommerce-postgres-1 Healthy 
+2026-09-19T01:52:17  Container globalcommerce-api-1 Waiting 
+2026-09-19T01:52:17  Container globalcommerce-api-1 Waiting 
+2026-09-19T01:52:24  Container globalcommerce-api-1 Healthy 
+2026-09-19T01:52:24  Container globalcommerce-api-1 Healthy 
+2026-09-19T01:52:24  Container globalcommerce-redis-1 Waiting 
+2026-09-19T01:52:25  Container globalcommerce-api-1 Waiting 
+2026-09-19T01:52:25  Container globalcommerce-frontend-1 Waiting 
+2026-09-19T01:52:25  Container globalcommerce-prometheus-1 Waiting 
+2026-09-19T01:52:25  Container globalcommerce-grafana-1 Waiting 
+2026-09-19T01:52:25  Container globalcommerce-postgres-1 Waiting 
+2026-09-19T01:52:25  Container globalcommerce-frontend-1 Healthy 
+2026-09-19T01:52:25  Container globalcommerce-redis-1 Healthy 
+2026-09-19T01:52:25  Container globalcommerce-api-1 Healthy 
+2026-09-19T01:52:25  Container globalcommerce-prometheus-1 Healthy 
+2026-09-19T01:52:25  Container globalcommerce-postgres-1 Healthy 
+2026-09-19T01:52:25  Container globalcommerce-grafana-1 Healthy 
+2026-09-19T01:52:27 Website ready. Opening your browser.
+2026-09-19T08:21:57 Before exam day: click Prepare / rebuild once and rehearse.
+On exam day: click Start project. No commands needed.
+Docker Desktop must be installed. Keep the original project folder in place.
+Login: admin@globalcommerce.local / Admin123!
+Nothing is uploaded. Closing this window does not stop the project.
+2026-09-19T08:22:01 Starting Docker Desktop. Waiting for its Linux engine...
+2026-09-19T08:22:19 Starting services...
+2026-09-19T08:22:20  Container globalcommerce-redis-1 Running 
+2026-09-19T08:22:20  Container globalcommerce-api-1 Running 
+2026-09-19T08:22:20  Container globalcommerce-frontend-1 Running 
+2026-09-19T08:22:20  Container globalcommerce-prometheus-1 Running 
+2026-09-19T08:22:20  Container globalcommerce-grafana-1 Running 
+2026-09-19T08:22:20  Container globalcommerce-postgres-1 Running 
+2026-09-19T08:22:20  Container globalcommerce-postgres-1 Waiting 
+2026-09-19T08:22:20  Container globalcommerce-redis-1 Waiting 
+2026-09-19T08:22:21  Container globalcommerce-redis-1 Healthy 
+2026-09-19T08:22:25  Container globalcommerce-postgres-1 Healthy 
+2026-09-19T08:22:25  Container globalcommerce-api-1 Waiting 
+2026-09-19T08:22:25  Container globalcommerce-api-1 Waiting 
+2026-09-19T08:22:31  Container globalcommerce-api-1 Healthy 
+2026-09-19T08:22:31  Container globalcommerce-api-1 Healthy 
+2026-09-19T08:22:31  Container globalcommerce-redis-1 Waiting 
+2026-09-19T08:22:31  Container globalcommerce-api-1 Waiting 
+2026-09-19T08:22:31  Container globalcommerce-frontend-1 Waiting 
+2026-09-19T08:22:31  Container globalcommerce-prometheus-1 Waiting 
+2026-09-19T08:22:31  Container globalcommerce-grafana-1 Waiting 
+2026-09-19T08:22:31  Container globalcommerce-postgres-1 Waiting 
+2026-09-19T08:22:32  Container globalcommerce-frontend-1 Healthy 
+2026-09-19T08:22:32  Container globalcommerce-grafana-1 Healthy 
+2026-09-19T08:22:32  Container globalcommerce-api-1 Healthy 
+2026-09-19T08:22:32  Container globalcommerce-postgres-1 Healthy 
+2026-09-19T08:22:32  Container globalcommerce-redis-1 Healthy 
+2026-09-19T08:22:32  Container globalcommerce-prometheus-1 Healthy 
+2026-09-19T08:22:34 Website ready. Opening your browser.
+2026-09-21T23:08:40 Before exam day: click Prepare / rebuild once and rehearse.
+On exam day: click Start project. No commands needed.
+Docker Desktop must be installed. Keep the original project folder in place.
+Login: admin@globalcommerce.local / Admin123!
+Nothing is uploaded. Closing this window does not stop the project.
+2026-09-21T23:08:43 Starting Docker Desktop. Waiting for its Linux engine...
+2026-09-21T23:09:02 Starting services...
+2026-09-21T23:09:03  Container globalcommerce-frontend-1 Running 
+2026-09-21T23:09:03  Container globalcommerce-prometheus-1 Running 
+2026-09-21T23:09:03  Container globalcommerce-grafana-1 Running 
+2026-09-21T23:09:03  Container globalcommerce-postgres-1 Running 
+2026-09-21T23:09:03  Container globalcommerce-redis-1 Running 
+2026-09-21T23:09:03  Container globalcommerce-api-1 Running 
+2026-09-21T23:09:03  Container globalcommerce-redis-1 Waiting 
+2026-09-21T23:09:03  Container globalcommerce-postgres-1 Waiting 
+2026-09-21T23:09:04  Container globalcommerce-redis-1 Healthy 
+2026-09-21T23:09:08  Container globalcommerce-postgres-1 Healthy 
+2026-09-21T23:09:08  Container globalcommerce-api-1 Waiting 
+2026-09-21T23:09:08  Container globalcommerce-api-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-api-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-api-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-prometheus-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-grafana-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-postgres-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-redis-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-api-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-frontend-1 Waiting 
+2026-09-21T23:09:15  Container globalcommerce-postgres-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-prometheus-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-api-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-grafana-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-frontend-1 Healthy 
+2026-09-21T23:09:15  Container globalcommerce-redis-1 Healthy 
+2026-09-21T23:09:18 Website ready. Opening your browser.

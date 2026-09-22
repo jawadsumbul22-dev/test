@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-28T07:41:37.149Z",
+  "workspace": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build",
+  "finalPptx": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\outputs\\globalcommerce-enterprise-platform\\docs\\GlobalCommerce-Presentation-Jawad-Ahmad.pptx",
+  "starterPptx": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter.pptx",
+  "mapPath": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-frame-map.json",
+  "starterLayoutDir": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\template-starter-layout",
+  "finalLayoutDir": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\layout\\final",
+  "editDir": "C:\\Users\\HP\\Documents\\Codex\\2026-08-16\\i\\work\\slides-build\\authoring",
+  "issueCount": 0,
+  "issues": []
+}

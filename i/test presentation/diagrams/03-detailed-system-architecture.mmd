@@ -1,0 +1,14 @@
+flowchart TB
+    UI[Role-aware bento interface] --> Middleware[Rate limiter - request ID - security headers]
+    Middleware --> Auth[JWT and active account checks]
+    Auth --> Access[Role and object ownership authorization]
+    Access --> Admin[Accounts and catalogue]
+    Access --> OrderService[Order transaction service]
+    Access --> Planning[CSV import and forecast service]
+    Access --> Analytics[Aggregates and CSV reports]
+    Admin --> DB[(PostgreSQL)]
+    OrderService --> DB
+    Planning --> DB
+    Analytics --> DB
+    Middleware --> Redis[(Redis counters)]
+    Middleware --> Metrics[Prometheus counters and histograms]

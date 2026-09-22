@@ -1,0 +1,45 @@
+NEW EXAM PRESENTATION - JAWAD AHMAD
+
+Open GlobalCommerce-Exam-Focused-Jawad-Ahmad.pptx in PowerPoint.
+Use Presenter View to see the speaking notes. Share only the slide-show window.
+If PowerPoint is unavailable, open the matching PDF and study New-Slides-Speaker-Notes.txt separately.
+The old slides are unchanged. The existing EXE presentation buttons may still open the old presentation, so open this new file directly.
+
+PRESENTATION ORDER
+1. Start the local project with your existing EXE before the exam.
+2. Check the website opens and the order workflow works.
+3. Keep the website and new slides open.
+4. Present slides 1-16 in your own words.
+5. On slide 17, switch to the website and perform the five-minute demonstration.
+6. Return to slide 18 for your conclusion.
+7. Slides 19-20 are supporting material for questions.
+Aim for 15-20 minutes of speaking plus five minutes of demonstration, subject to your examiner's instructions.
+
+REHEARSE THE DEMONSTRATION
+Use a product with sufficient stock and record the allocated warehouse.
+Write down actual on-hand, reserved and available stock first.
+Create a two-unit order and show the order number, quantity and charges.
+Reserved should increase by two; available should decrease by two.
+Progress the shipment through valid statuses to delivery.
+On-hand and reserved should each decrease by two at delivery.
+Show one forecast, its error and its recommendation.
+Use a separate pre-dispatch order to demonstrate cancellation and released stock.
+Finish with business analytics, then API monitoring.
+Do not reset the database in the exam. Do not claim saved screenshots are live.
+
+PREPARE ANSWERS
+Why does delivery not decrease available stock again?
+How do you prevent overselling and duplicate orders?
+What is the difference between authentication and authorization?
+Why are FastAPI, PostgreSQL and Redis used?
+What data feeds forecasting, and how is its error measured?
+Why compare a model with a simple baseline?
+Which external services are simulated?
+What would change before production deployment?
+Describe your own contributions and AI assistance truthfully.
+
+IMPORTANT LIMITS
+Recorded test and forecasting results are dated 6 September 2026, not a fresh live-system check.
+Run the final local build and rehearse the current application before the exam.
+The deck targets the assessment criteria but does not guarantee marks.
+No files were uploaded to GitHub.

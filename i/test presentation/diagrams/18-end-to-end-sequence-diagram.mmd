@@ -1,0 +1,28 @@
+sequenceDiagram
+    actor Admin as Administrator
+    actor Customer
+    participant UI as Commerce console
+    participant API as FastAPI
+    participant DB as PostgreSQL
+    participant Model as Forecast service
+    Admin->>UI: Register customer and catalogue
+    UI->>API: Authorized registration
+    API->>DB: Save account and master data
+    Customer->>UI: Create international order
+    UI->>API: JWT, payload and idempotency key
+    API->>DB: Lock customer and inventory
+    API->>DB: Reserve and save order, payment, shipment, audit
+    DB-->>API: Commit
+    API-->>UI: Order ID, items, charges and tracking
+    Admin->>UI: Advance shipment to delivery
+    UI->>API: Valid next event
+    API->>DB: Lock order, capture and deduct once
+    Admin->>UI: Import daily sales and run forecast
+    UI->>API: Validated CSV then horizon
+    API->>Model: Evaluate and forecast
+    Model->>DB: Read history and current available stock
+    Model->>DB: Save predictions, recommendations and evaluation
+    Admin->>UI: Download executive report
+    UI->>API: Request report
+    API->>DB: Aggregate business records
+    API-->>UI: CSV with defined units and currencies

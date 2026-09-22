@@ -1,0 +1,9 @@
+flowchart LR
+    Customer[Customer] -->|Order request| System[GlobalCommerce]
+    System -->|Own orders and tracking| Customer
+    Merchant[Merchant] -->|Owned product data via API| System
+    System -->|Own product performance| Merchant
+    Admin[Administrator] -->|Accounts and catalogue changes| System
+    Warehouse[Warehouse and logistics staff] -->|Receipts and shipment events| System
+    Analyst[Analyst] -->|Sales history CSV and forecast request| System
+    System -->|Forecasts and operational reports| Analyst

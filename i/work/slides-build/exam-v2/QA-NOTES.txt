@@ -1,0 +1,9 @@
+Twenty slides rendered and visually inspected individually, including the corrected zero-based chart.
+Package integrity: pass, zero findings.
+Layout geometry: zero findings; one estimated native-table overflow warning on slide 17. Render reviewed and table/footer are visibly separate.
+Native chart and embedded workbook: pass, slide 11.
+Native chart title gate: pass; slide title supplies the heading.
+PDF: 20 pages; generated from individually reviewed slide images; page 11 rendered independently and reviewed.
+Standard finalizer attempted but Node child-process execution failed with EPERM. Its official Python structural validators were then run directly through the shell successfully.
+Native PowerPoint opening and Artifact Tool re-import were not verified in this environment.
+No claim of a fresh running-project test is made.
